@@ -500,7 +500,8 @@ font-size: .9em; }
 font-style: italic;
 color: #555;
 font-size: .875em;
-line-height: 1.714em; }
+line-height: 1.714em; 
+width: 32%}
 
 #register td[rowspan] {font-style: normal;
 color: #222;
@@ -510,6 +511,14 @@ line-height: 1.5em; }
 #register td[rowspan='2'], #register td[rowspan='2']+td, #register td[rowspan='2']+td+td, #register td[rowspan='2']+td+td+td {padding-top: 3em; }
 
 #register td:last-of-type {text-align: left; }
+
+#register .recommended {
+background-color: blue;
+color: #fff }
+
+#register .recommended td {font-size: 1.1em;
+background-color: blue;
+color: #fff }
 
 #register table + p {margin-top: 1.5em; }
 
@@ -638,98 +647,6 @@ footer a {border-bottom: 2px solid #bbb; }
 
 footer a:hover, footer a:focus {color: #555; }
 
-/*streaming*/
-
-#livestream #register table {width: 80%;
-border-bottom: none;
-margin-bottom: 0 }
-
-#livestream #register table + p {width: 80%;
-border-bottom: 2px solid #bbb;
-margin-top:1em;
-padding-bottom: 1em;
- }
-
-#livestream #register table + p + p {width: 80%;
-padding-bottom:2em;
-background-image: url('images/paypal.png');
-background-repeat: no-repeat;
-background-position: bottom right; }
-
-#livestream #register th:first-of-type {width: 20% }
-
-#livestream #register th:nth-of-type(2) {width: 30% }
-
-#livestream #register td:first-of-type {width: 15%;
-color: #ac090a }
-
-#livestream #register td:nth-of-type(2) {width: 15% ; }
-
-#livestream #register td:nth-of-type(3) {width: 60% ; }
-
-#livestream #register td:nth-of-type(4) {width: 10% ; }
-
-#livestream #register td { }
-
-#livestream form {display: inline;
-margin-left: 1em;
-vertical-align: middle; }
-
-#livestream iframe {margin: 2em auto 0 auto;
-display: block; }
-
-#discountCode {border: solid thin #aaa;
-font-size:1em;
-margin: 0 .6em;
-border-radius: .5em;
-padding: .2em;
-font-family: monospace; }
-
-/*#discountValid {opacity: 0;
--webkit-transition: opacity 1s, background-color: 2s;
-transition: opacity 1s, background-color: 2s;
-	background-color: yellow;
-}*/
-
-#discountValid {opacity: 0;
--webkit-transition: opacity 1s, background-color 4s;
-transition: opacity 1s;
-background-color: yellow;
-padding: .2em .5em;
--webkit-border-radius: .5em;
--moz-border-radius: .5em;
-border-radius: .5em; }
-
-#discountValid.discounted {opacity: 1;
-background-color: transparent }
-
-td.individualPrice span, .teamPrice span {padding: .2em .5em;
--webkit-border-radius: .5em;
--moz-border-radius: .5em;
-border-radius: .5em; }
-
-.individualPrice.discounted span, .teamPrice.discounted span {-webkit-animation-name: yellow-fade;
--webkit-animation-duration: 3s;
--webkit-animation-delay: 0s;
--webkit-animation-iteration-count: 1;
--webkit-animation-timing-function: ease;
-animation-name: yellow-fade;
-animation-duration: 3s;
-animation-delay: 0s;
-animation-iteration-count: 1;
-animation-timing-function: ease; }
-
-#livestream #intro .individualPrice span:after {content: "" }
-
-#livestream #intro h1 span {display: inline; }
-
-#howitworks { }
-
-#thanks #intro p:last-of-type {margin: 4em 13% 1em 13%;
-padding: 0 2%;
-background: none;
-position: relative;
-z-index: 100 }
 
 
 /*day details*/
@@ -811,3 +728,22 @@ min-height: 25px}
 #schedule table .sessiontitle {
 	font-weight: bold; 
 }
+
+/*pricing*/
+
+.priceOption {
+width: 30%;
+padding: 0 1%;
+margin-bottom: 1em;
+background-color: #ebebeb; }
+
+.priceOption.recommended {
+width: 60%;
+font-size: 1.1em; 
+float: right;
+}
+
+#register .priceOption p {
+width: 100%}
+
+#register>p {clear: both}
