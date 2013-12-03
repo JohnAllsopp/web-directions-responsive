@@ -741,7 +741,9 @@ float: left
 
 #schedule .day-overview h2 {
 	text-align: left;
-font-size: 1.2em
+font-size: 1.2em;
+margin-left: 0;
+padding-left: 0
 }
 
 .day-overview table {
