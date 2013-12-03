@@ -1,0 +1,811 @@
+@keyframes yellow-fade {0% {
+background-color: transparent }
+
+50% {background-color: yellow }
+
+100% {background-color: transparent }
+
+}
+
+@-webkit-keyframes yellow-fade {0% {
+background-color: transparent }
+
+50% {background-color: yellow }
+
+100% {background-color: transparent }
+
+}
+
+@-moz-keyframes yellow-fade {0% {
+background-color: transparent }
+
+50% {background-color: yellow }
+
+100% {background-color: transparent }
+
+}
+
+/* Eric Meyer's Reset CSS v2.0 */
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {border:0;
+font-size:100%;
+font:inherit;
+vertical-align:baseline;
+margin:0;
+padding:0 }
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display:block }
+
+body {line-height:1 }
+
+ol,ul {list-style:none }
+
+blockquote,q {quotes:none }
+
+blockquote:before,blockquote:after,q:before,q:after {content:none }
+
+table {border-collapse:collapse;
+border-spacing:0 }
+
+body {background: #fff;
+font: 16px/1.5em Georgia, serif;
+color: #222;
+padding-top: 110px; }
+
+a {text-decoration: none;
+color: #ac090a;
+padding-bottom: 1px; }
+
+a:hover, a:focus {border-bottom: 2px solid #ac090a; }
+
+sup {vertical-align: super;
+font-size: .625em;
+line-height: 2.4em; }
+
+em, strong {font-weight: bold; }
+
+header {position: fixed;
+top: 0;
+background: #eee;
+width: 100%;
+padding-top: 1.5em;
+z-index: 101;
+text-align: center;
+text-overflow: ellipsis-word; }
+
+@media all and (min-width: 820px) {
+
+header {text-align: left;
+padding-top: 1.75em; }
+
+ }
+
+header:afters {content: "";
+display: block;
+width: 100%;
+background: url(images/border-header.png) repeat-x bottom center;
+height: 25px;
+margin-top: -30px;
+position: relative;
+top: 25px; }
+
+@media all and (min-width: 820px) {
+
+header:after {margin-top: -20px; }
+
+ }
+
+#logo {width: 200px;
+height: 53px;
+margin: .25em auto;
+display: block; }
+
+@media all and (min-width: 820px) {
+
+#logo {width: 25%;
+margin: 0 auto;
+padding-right: 45%;
+display: block;
+position: relative;
+top: -14px;
+height: auto; }
+
+ }
+
+#logo:hover, #logo:focus {border-bottom: none; }
+
+#logo img {width: 200px;
+height: 53px; }
+
+@media all and (min-width: 820px) {
+
+#logo img {float: left;
+margin-right: 1.5em;
+width: auto;
+height: auto; }
+
+ }
+
+#logo:afters {content: "";
+display: block;
+width: 273px;
+height: 73px;
+position: absolute;
+top: 0;
+left: 0;
+background: url(images/dots-white.png);
+opacity: .5; }
+
+#logo:hover:after, #logo:focus:after {background: none; }
+
+nav {width: 70%;
+margin: 0 auto;
+position: relative;
+z-index: 9; }
+
+@media all and (min-width: 820px) {
+
+nav {width: 65%;
+padding-left: 25%;
+margin-top: 9px; }
+
+ }
+
+.dates {position: absolute;
+top: 0;
+left: 15%;
+width: 70%; }
+
+@media all and (min-width: 800px) {
+
+.dates {position: static;
+width: 55%;
+margin: 0 auto;
+padding-left: 25%; }
+
+ }
+
+.dates {color: #888;
+font-size: .875em;
+line-height: 1.714em; }
+
+nav li {font-size: 1.125em;
+line-height: 1.333em;
+display: inline-block;
+margin-right: 1.1em; }
+
+/*nav a:link {
+border-bottom-color: rgba(0, 0, 0, 0)}*/
+
+nav a {color: #222; }
+
+nav .active {border-bottom: 2px solid #ac090a; }
+
+nav .active:focus, nav .active:hover {border-bottom-color: #bbb; }
+
+nav a[href='#register'] { }
+
+.ie7 {position: absolute;
+top: 0;
+right: 0;
+width: 28%;
+padding: .75em 1%;
+background: #fff;
+border-left: 2px solid #ac090a;
+border-bottom: 2px solid #ac090a; }
+
+/* Generic content styles */
+
+#schedule, #workshops, #venue h1, #venue h2, #venue p, #register, #sponsors, #proposition, #howitworks, #about {width: 70%;
+margin-left: auto;
+margin-right: auto; }
+
+#schedule, #workshops, #venue, #sponsors, #register, #footer, #howitworks, #about {padding-top: 1em;
+position: relative;
+top: -100px;
+padding-top: 100px }
+
+#schedule, #workshops, #venue, #sponsors, #about, #howitworks {overflow: auto; }
+
+p+p {margin-top: .75em; }
+
+h1 {font-size: 2em;
+line-height: 1.125em;
+clear: both;
+margin-bottom: .281em; }
+
+h2 {font-style: italic;
+color: #ac090a;
+margin-top: 1.5em;
+margin-bottom: .325em; }
+
+h3, h4, .dates, footer #copyright, .button, #register th, .sessiontitle {font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+text-transform: uppercase;
+letter-spacing: .1em; }
+
+/* Intro */
+
+#intro {padding-top: 50px;
+height: 200px;
+margin-top: -10px;
+background: url(images/intro-bg.jpg) center center no-repeat;
+background: url(images/border-2.png) bottom repeat-x, url(images/dots.png), url(images/intro-bg.jpg) center center no-repeat; }
+
+#intro h1 span {display: block }
+
+#intro h1 span:first-of-type:after {content: ": " }
+
+@media all and (min-width: 820px) {
+
+#intro {padding-top: 170px;
+height: 200px; }
+
+ }
+
+#intro h1 {background: #fff;
+background: rgba(255,255,255,.85);
+padding: 1px 15%;
+position: relative; }
+
+#intro p {float: left;
+margin: 1em 13% 0 13%;
+padding: 0 2%;
+font-size: 1.25em;
+line-height: 1.5em;
+color: #555; }
+
+#intro p:first-of-type {margin-top: 5em }
+
+#intro p:last-of-type {padding-top: 1.5em;
+padding-bottom: 1.5em;
+background: url(images/border-2.png) bottom repeat-x, url(images/border-1.png) top repeat-x;
+margin-top: 0;
+margin-bottom: 0;
+position: relative;
+z-index: 100 }
+
+#intro:before {content: "";
+display: block;
+background: url(images/border-2.png) repeat-x;
+position: relative;
+opacity: .85;
+height: 33px;
+margin: 0 auto; }
+
+#intro:after {content: "";
+display: block;
+background: url(images/border-1.png) repeat-x;
+opacity: .85;
+position: relative;
+top: -96px;
+margin: 6em auto 0 auto;
+height: 27px; }
+
+/* Schedule, Workshops */
+
+@media all and (min-width: 1024px) {
+
+#schedule .dtend, #workshops .dtend, #schedule .ndash, #workshops .ndash {display: inline; }
+
+ }
+
+@media all and (min-width: 820px) {
+
+#schedule h1 + p, #workshops h1 + p {/*width: 35.71%;
+*/ }
+
+ }
+
+.dtend, .ndash {display: none; }
+
+#schedule h2, #workshops h2, #proposition h2 {clear: both;
+margin-bottom: .6em;
+font-size: 1.6em;
+padding-left: 25.71%; }
+
+#schedule .vevent, #workshops .vevent {position: relative;
+padding-left: 25.71%;
+clear: both;
+border-top: 1px solid #ddd; }
+
+#schedule .session, #workshops .session {border-top: 1px solid #ccc;
+margin-top: 3em; }
+
+#schedule h3, #workshops h3 {position: relative;
+top: -.8em; }
+
+#schedule .name, #workshops .name {display: block;
+padding: 0 .5em;
+margin: -.7em 0 0 -.5em;
+font-family: Georgia, serif;
+font-style: italic;
+text-transform: none;
+letter-spacing: 0;
+color: #ac090a;
+font-weight: bold; }
+
+#schedule .session .title, #workshops .title {display: block;
+margin-bottom: 0; }
+
+#schedule .break {color: #999;
+margin-top: 1.5em }
+
+#schedule .break .title {background: #fff;
+padding: 0 .5em;
+margin-left: -.5em; }
+
+#schedule .break a {border-bottom: 2px solid #bbb;
+color: #999; }
+
+#schedule .break a:focus, #schedule .break a:hover {color: #ac090a;
+border-bottom-color: #999; }
+
+#schedule .bio, #workshops .bio {font-style: italic;
+color: #444; }
+
+#schedule .description + .bio, #workshops .description + .bio {margin-top: 1em; }
+
+#schedule img, #workshops img {float: left;
+margin: 4.5em 1.5em 1.5em -34.7%;
+width: 32.22%;
+height: auto; }
+
+#workshops img {margin-bottom: 21em; }
+
+@media all and (min-width: 820px) {
+
+#schedule img, #workshops img {width: 170px;
+margin-top: 2em; }
+
+#schedule .bio:after, #workshops .bio:after {width: 170px;
+height: 170px;
+content: "";
+display: block;
+position: absolute;
+top: 2em;
+left: 0;
+background: url(images/border-2.png) bottom repeat-x, url(images/border-1.png) repeat-x, url(images/dots.png); }
+
+ }
+
+#schedule .links, #workshops .links {margin-top: 1em;
+padding-bottom: 1em; }
+
+#schedule .links li, #workshops .links li {display: inline-block;
+margin-right: 1.5em; }
+
+#schedule .links a:focus, #schedule .links a:hover, #workshops .links a:focus, #workshops .links a:hover {border-bottom-color: #ccc; }
+
+#schedule .links a:first-of-type, #workshops .links a:first-of-type {background: url(images/sprite-links.png) 0 2px no-repeat;
+padding-left: 20px; }
+
+#schedule .links a[href*="twitter.com"], #workshops .links a[href*="twitter.com"] {background: url(images/sprite-links.png) 0 -36px no-repeat;
+padding-left: 20px; }
+
+#schedule .links a[href*="github.com"], #workshops .links a[href*="github.com"] {background: url(images/sprite-links.png) 0 -70px no-repeat;
+padding-left: 20px; }
+
+#schedule .time, #workshops .time {position: absolute;
+top: -.9em;
+left: 0;
+background: #fff;
+padding: 0 .5em;
+margin-left: 1.5em;
+font-size: 1em; }
+
+#workshops .info {background: #eee;
+padding: .75em; }
+
+@media all and (min-width: 800px) {
+
+#workshops .info {position: absolute;
+top: 200px;
+left: 0;
+width: 150px;
+padding: .75em 2%; }
+
+#workshops .info .button {padding: .75em 1em }
+
+}
+
+ }
+
+@media all and (min-width: 1024px) {
+
+/*#workshops .info {
+	top: 170px;
+	width: 155px;
+	padding: .75em 12px .75em 10px; 
+}
+*/
+
+ }
+
+#workshops .info h4 {margin: 0; }
+
+#workshops .info p {font-size: .875em;
+line-height: 1.4em;
+margin-bottom: .6em; }
+
+/*#workshops div[class~=workshop] {
+width: 30%;
+float: left}*/
+
+/* Venue */
+
+#venue h1 {margin-bottom: 0; }
+
+#venue h2, #venue p {width: 30%;
+padding-left: 15%; }
+
+#venue h2 img {position: relative;
+top: 12px;
+left: 1.5em; }
+
+#venue h1+h2, #venue h1+h2+p, #venue h1+h2+p+h2+p+h2, #venue h1+h2+p+h2+p+h2+p, #venue-map + h2, #venue-map + h2+p {float: left;
+clear: left; }
+
+#venue h1+h2+p+h2, #venue h1+h2+p+h2+p,  #venue h1+h2+p+h2+p+h2+p+h2, #venue h1+h2+p+h2+p+h2+p+h2+p, #venue-map + h2+p+h2, #venue-map + h2+p+h2+p {width: 30%;
+padding-left: 30%; }
+
+#venue-map {width: 100%;
+height: 400px;
+margin-top: 1.5em; }
+
+#venue-map:before {content: "";
+display: block;
+width: 100%;
+background: url(images/border-1.png) repeat-x;
+height: 27px;
+position: relative;
+z-index: 11; }
+
+#venue-map:after {content: "";
+display: block;
+width: 100%;
+background: url(images/border-2.png) repeat-x;
+height: 33px;
+position: relative;
+top: 341px;
+margin-bottom: 0; }
+
+/* Register / pricing */
+
+@media all and (min-width: 820px) {
+
+#register p, #register h2 {width: 80%; }
+
+#register h4 {margin-top: 2em }
+
+ }
+
+#register table {margin: 1.5em 0 3em 0;
+border-bottom: 2px solid #bbb; }
+
+#register th:first-of-type {width: 40% }
+
+@media all and (min-width: 820px) {
+
+#register table {width: 60%;
+margin: 1em 0 0 0; }
+
+ }
+
+#register th {padding: .5em .75em .25em 2.86%;
+text-align: left;
+border-bottom: 2px solid #ddd;
+font-size: .9em; }
+
+#register td {padding: .75em .75em .25em 2.86%;
+font-style: italic;
+color: #555;
+font-size: .875em;
+line-height: 1.714em; }
+
+#register td[rowspan] {font-style: normal;
+color: #222;
+font-size: 1em;
+line-height: 1.5em; }
+
+#register td[rowspan='2'], #register td[rowspan='2']+td, #register td[rowspan='2']+td+td, #register td[rowspan='2']+td+td+td {padding-top: 3em; }
+
+#register td:last-of-type {text-align: left; }
+
+#register table + p {margin-top: 1.5em; }
+
+#register li {list-style: outside circle; }
+
+.button {background: #ac090a url(images/dots.png);
+color: #fff;
+display: inline-block;
+padding: .75em 1.5em; }
+
+nav .button {background: #ac090a url(images/dots.png);
+color: #fff;
+display: inline-block;
+padding: .3em 1em;
+margin-top: .6em }
+
+.button:focus, .button:hover {border-bottom: none;
+background-image: none; }
+
+#workshops .button {margin-top: 1.5em;
+text-align: center;
+width: 80% }
+
+#register .button {margin-top: 1.5em; }
+
+@media all and (min-width: 820px) {
+
+#register .button {/*float: left;
+*/
+	margin-top: 3em;
+max-width: 21.43% }
+
+ }
+
+#fineprint {font-size: .8em; }
+
+#fineprint li {margin-left: 2em; }
+
+/* Sponsors */
+
+#sponsors li {display: block;
+margin: .75em 0 1.5em 0;
+padding: 0 3% 0 0;
+float: left;
+width: 45%; }
+
+@media all and (min-width: 820px) {
+
+#sponsors li {width: 30%; }
+
+ }
+
+#sponsors a {display: block;
+position: relative; }
+
+#sponsors a:hover, #sponsors a:focus {border-bottom: none; }
+
+#sponsors img {margin-top: .75em;
+display: block;
+max-width: 80%;
+height: auto;
+max-height: 70px;
+/*	filter: url(../images/filters.svg#grayscale);
+*/	/* Firefox 3.5+ */
+    	filter: gray;
+/* IE6-9 */
+    -webkit-filter: grayscale(1);
+/* Google Chrome & Webkit Nightlies */
+	-o-filter: grayscale(1); }
+
+#sponsors a:hover img, #sponsors a:focus img {filter: none;
+-webkit-filter: grayscale(0);
+-o-filter: grayscale(0); }
+
+#sponsors h4 {color: #222;
+position: relative;
+z-index: 9; }
+
+#sponsors a:hover h4, #sponsors a:focus h4 {color: #ac090a; }
+
+#sponsors a:after {content: "";
+display: block;
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+background: url(images/dots-white.png); }
+
+#sponsors a:hover:after, #sponsors a:focus:after {background: none; }
+
+#sponsors a.plain:after {display: none }
+
+#sponsors a.plain {display: inline; }
+
+/* Footer */
+
+footer {background: #eee;
+padding-bottom: 1.5em;
+position: relative;
+margin-top: 3em; }
+
+footer:before {content: "";
+display: block;
+width: 100%;
+background: url(images/border-1.png) repeat-x;
+height: 25px;
+position: relative; }
+
+footer #contact {width: 35%;
+padding-right: 35%;
+margin: 1.5em auto 0 auto; }
+
+footer #links {width: 35%;
+padding-left: 35%;
+margin: -6em auto 0 auto; }
+
+footer #copyright {width: 70%;
+margin: 1.846em auto 0 auto;
+font-size: .8125em;
+line-height: 1.846em; }
+
+footer ul, footer a, footer p {color: #777; }
+
+footer a {border-bottom: 2px solid #bbb; }
+
+footer a:hover, footer a:focus {color: #555; }
+
+/*streaming*/
+
+#livestream #register table {width: 80%;
+border-bottom: none;
+margin-bottom: 0 }
+
+#livestream #register table + p {width: 80%;
+border-bottom: 2px solid #bbb;
+margin-top:1em;
+padding-bottom: 1em;
+ }
+
+#livestream #register table + p + p {width: 80%;
+padding-bottom:2em;
+background-image: url('images/paypal.png');
+background-repeat: no-repeat;
+background-position: bottom right; }
+
+#livestream #register th:first-of-type {width: 20% }
+
+#livestream #register th:nth-of-type(2) {width: 30% }
+
+#livestream #register td:first-of-type {width: 15%;
+color: #ac090a }
+
+#livestream #register td:nth-of-type(2) {width: 15% ; }
+
+#livestream #register td:nth-of-type(3) {width: 60% ; }
+
+#livestream #register td:nth-of-type(4) {width: 10% ; }
+
+#livestream #register td { }
+
+#livestream form {display: inline;
+margin-left: 1em;
+vertical-align: middle; }
+
+#livestream iframe {margin: 2em auto 0 auto;
+display: block; }
+
+#discountCode {border: solid thin #aaa;
+font-size:1em;
+margin: 0 .6em;
+border-radius: .5em;
+padding: .2em;
+font-family: monospace; }
+
+/*#discountValid {opacity: 0;
+-webkit-transition: opacity 1s, background-color: 2s;
+transition: opacity 1s, background-color: 2s;
+	background-color: yellow;
+}*/
+
+#discountValid {opacity: 0;
+-webkit-transition: opacity 1s, background-color 4s;
+transition: opacity 1s;
+background-color: yellow;
+padding: .2em .5em;
+-webkit-border-radius: .5em;
+-moz-border-radius: .5em;
+border-radius: .5em; }
+
+#discountValid.discounted {opacity: 1;
+background-color: transparent }
+
+td.individualPrice span, .teamPrice span {padding: .2em .5em;
+-webkit-border-radius: .5em;
+-moz-border-radius: .5em;
+border-radius: .5em; }
+
+.individualPrice.discounted span, .teamPrice.discounted span {-webkit-animation-name: yellow-fade;
+-webkit-animation-duration: 3s;
+-webkit-animation-delay: 0s;
+-webkit-animation-iteration-count: 1;
+-webkit-animation-timing-function: ease;
+animation-name: yellow-fade;
+animation-duration: 3s;
+animation-delay: 0s;
+animation-iteration-count: 1;
+animation-timing-function: ease; }
+
+#livestream #intro .individualPrice span:after {content: "" }
+
+#livestream #intro h1 span {display: inline; }
+
+#howitworks { }
+
+#thanks #intro p:last-of-type {margin: 4em 13% 1em 13%;
+padding: 0 2%;
+background: none;
+position: relative;
+z-index: 100 }
+
+
+/*day details*/
+
+.day-overview {
+	width: 50%;
+float: left
+}
+
+#schedule .day-overview h2 {
+	text-align: left;
+font-size: 1.2em
+}
+
+.day-overview table {
+width: 100%}
+
+
+/*schedule table */
+
+#schedule h3 {
+	margin-top: 2em}
+
+#schedule table  {
+width: 100%;
+float: left;
+font-size: .8em;
+	margin: 1em 0}
+
+#schedule table:first-of-type  {
+	border-right: solid thin white}
+
+#schedule table:nth-of-type(2)  {
+	width: 44%}
+
+#schedule tr:first-of-type {
+	height: 2em;
+	vertical-align: middle;
+	/*border-bottom: solid thin #ccc*/
+	font-weight: bold; 
+}
+
+#schedule th {
+	text-align: left;
+	padding-left: 1em}
+
+#schedule tr {
+	/*height: 4em;*/
+	vertical-align: middle;
+	/*border-bottom: solid thin #ccc*/
+min-height: 2.6em;
+min-height: 25px}
+
+#schedule tr:nth-of-type(odd) {
+	background-color: #efefef}
+
+#schedule table .sessiontime, #schedule table .speaker, #schedule table .sessiontitle {
+	display: block; 
+}
+
+#schedule table .sessiontime {
+	font-size: .8em;
+	padding: 0 1em;
+	vertical-align: middle;
+	}
+
+#schedule table .speaker, #schedule table .sessiontitle {
+	padding: 0 1em;
+	vertical-align: middle;
+	}
+
+#schedule table .speaker {
+	font-style: italic;
+	color: #ac090a;
+	}
+
+#schedule table .sessiontitle {
+	font-weight: bold; 
+}
