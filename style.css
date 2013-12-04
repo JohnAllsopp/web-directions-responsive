@@ -21,7 +21,8 @@ table {border-collapse:collapse;
 border-spacing:0 }
 
 body {background: #fff;
-font: 16px/1.5em Georgia, serif;
+font: 16px/1.5em "Helvetica Neue", Helvetica, Arial,  san-serif ;
+font-weight: 200;
 color: #222;
 padding-top: 110px; }
 
@@ -53,14 +54,6 @@ padding-top: 1.75em; }
 
  }
 
-header:afters {content: "";
-display: block;
-width: 100%;
-background: url(images/border-header.png) repeat-x bottom center;
-height: 25px;
-margin-top: -30px;
-position: relative;
-top: 25px; }
 
 @media all and (min-width: 820px) {
 
@@ -99,15 +92,6 @@ height: auto; }
 
  }
 
-#logo:afters {content: "";
-display: block;
-width: 273px;
-height: 73px;
-position: absolute;
-top: 0;
-left: 0;
-background: url(images/dots-white.png);
-opacity: .5; }
 
 #logo:hover:after, #logo:focus:after {background: none; }
 
@@ -201,12 +185,14 @@ letter-spacing: .1em; }
 #intro {padding-top: 50px;
 height: 200px;
 margin-top: -10px;
-background: url(images/intro-bg.jpg) center center no-repeat;
-background: url(images/border-2.png) bottom repeat-x, url(images/dots.png), url(images/intro-bg.jpg) center center no-repeat; }
+background: url(images/operahouse.jpg) center center no-repeat;
+background-size: cover}
 
 #intro h1 span {display: block }
 
-#intro h1 span:first-of-type:after {content: ": " }
+#intro h1 span:last-of-type {
+font-size: .9em; 
+font-weight: 200}
 
 @media all and (min-width: 820px) {
 
@@ -231,28 +217,12 @@ color: #555; }
 
 #intro p:last-of-type {padding-top: 1.5em;
 padding-bottom: 1.5em;
-background: url(images/border-2.png) bottom repeat-x, url(images/border-1.png) top repeat-x;
 margin-top: 0;
 margin-bottom: 0;
 position: relative;
 z-index: 100 }
 
-#intro:before {content: "";
-display: block;
-background: url(images/border-2.png) repeat-x;
-position: relative;
-opacity: .85;
-height: 33px;
-margin: 0 auto; }
 
-#intro:after {content: "";
-display: block;
-background: url(images/border-1.png) repeat-x;
-opacity: .85;
-position: relative;
-top: -96px;
-margin: 6em auto 0 auto;
-height: 27px; }
 
 /* Schedule, Workshops */
 
@@ -290,7 +260,6 @@ top: -.8em; }
 #schedule .name, #workshops .name {display: block;
 padding: 0 .5em;
 margin: -.7em 0 0 -.5em;
-font-family: Georgia, serif;
 font-style: italic;
 text-transform: none;
 letter-spacing: 0;
@@ -330,16 +299,6 @@ height: auto; }
 #schedule img, #workshops img {width: 170px;
 margin-top: 2em; }
 
-#schedule .bio:after, #workshops .bio:after {width: 170px;
-height: 170px;
-content: "";
-display: block;
-position: absolute;
-top: 2em;
-left: 0;
-background: url(images/border-2.png) bottom repeat-x, url(images/border-1.png) repeat-x, url(images/dots.png); }
-
- }
 
 #schedule .links, #workshops .links {margin-top: 1em;
 padding-bottom: 1em; }
