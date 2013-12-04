@@ -27,10 +27,10 @@ color: #222;
 padding-top: 110px; }
 
 a {text-decoration: none;
-color: #fc5b31;
+color: #ce0d14;
 padding-bottom: 1px; }
 
-a:hover, a:focus {border-bottom: 2px solid #fc5b31; }
+a:hover, a:focus {border-bottom: 2px solid #ce0d14; }
 
 sup {vertical-align: super;
 font-size: .625em;
@@ -134,7 +134,7 @@ border-bottom-color: rgba(0, 0, 0, 0)}*/
 
 nav a {color: #222; }
 
-nav .active {border-bottom: 2px solid #fc5b31; }
+nav .active {border-bottom: 2px solid #ce0d14; }
 
 nav .active:focus, nav .active:hover {border-bottom-color: #bbb; }
 
@@ -146,12 +146,12 @@ right: 0;
 width: 28%;
 padding: .75em 1%;
 background: #fff;
-border-left: 2px solid #fc5b31;
-border-bottom: 2px solid #fc5b31; }
+border-left: 2px solid #ce0d14;
+border-bottom: 2px solid #ce0d14; }
 
 /* Generic content styles */
 
-#schedule, #workshops, #venue h1, #venue h2, #venue p, #register, #sponsors, #proposition, #howitworks, #about {width: 70%;
+#schedule, #workshops, #venue h1, #venue h2, #venue p, #register, #sponsors, #proposition, #howitworks, #about, #respond {width: 70%;
 margin-left: auto;
 margin-right: auto; }
 
@@ -164,19 +164,50 @@ padding-top: 100px }
 
 p+p {margin-top: .75em; }
 
-h1 {font-size: 2em;
+h1 {font-size: 2.4em;
 line-height: 1.125em;
 clear: both;
-margin-bottom: .281em; }
+margin-bottom: .281em;
+font-family: futura-pt, futura, san-serif;
+font-weight: 900;
+color: #000;}
 
 h2 {font-style: italic;
-color: #fc5b31;
+color: #ce0d14;
 margin-top: 1.5em;
-margin-bottom: .325em; }
+margin-bottom: .325em;
+font-family: futura-pt, futura, san-serif;
+color: #ffffff;
+background-color: #ce0d14; 
+font-weight: 900;
+font-size: 1.1em;
+padding: .2em;
+display: inline-block }
 
-h3, h4, .dates, footer #copyright, .button, #register th, .sessiontitle {font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+h3, h4, .dates, footer #copyright, .button, #register th, .sessiontitle {font-family: futura-pt, futura, sans-serif;
 text-transform: uppercase;
 letter-spacing: .1em; }
+
+h1, h2, h3, h4 {
+letter-spacing: -.1em}
+
+
+#spiel {display: none}
+
+#respond {
+text-align: center;
+font-size: 4em;
+font-weight: 900;
+text-transform: uppercase;
+font-style: italic; 
+font-family: futura-pt, futura, san-serif;
+color: #ffffff;
+background-color: #ce0d14; 
+width: 100%}
+
+#respond h1 {
+background-color: transparent;
+color: #fff}
 
 /* Intro */
 
@@ -238,8 +269,7 @@ z-index: 100 }
 
 #schedule h2, #workshops h2, #proposition h2 {clear: both;
 margin-bottom: .6em;
-font-size: 1.6em;
-padding-left: 25.71%; }
+font-size: 1.6em;}
 
 #schedule .vevent, #workshops .vevent {position: relative;
 padding-left: 25.71%;
@@ -252,17 +282,23 @@ margin-top: 3em; }
 #schedule h3, #workshops h3 {position: relative;
 top: -.8em; }
 
-#schedule .name, #workshops .name {display: block;
+#schedule .name, #workshops .name {display: inline-block;
 padding: 0 .5em;
 margin: -.7em 0 0 -.5em;
 font-style: italic;
-text-transform: none;
+/*text-transform: none;*/
 letter-spacing: 0;
-color: #fc5b31;
-font-weight: bold; }
+background-color: #ce0d14;
+font-weight: bold;
+color: #fff }
 
 #schedule .session .title, #workshops .title {display: block;
-margin-bottom: 0; }
+margin-bottom: 0;
+font-weight: bold;
+color: #fff;
+background-color: #000;
+display: block;
+width: auto }
 
 #schedule .break {color: #999;
 margin-top: 1.5em }
@@ -274,7 +310,7 @@ margin-left: -.5em; }
 #schedule .break a {border-bottom: 2px solid #bbb;
 color: #999; }
 
-#schedule .break a:focus, #schedule .break a:hover {color: #fc5b31;
+#schedule .break a:focus, #schedule .break a:hover {color: #ce0d14;
 border-bottom-color: #999; }
 
 #schedule .bio, #workshops .bio {font-style: italic;
@@ -363,31 +399,17 @@ top: 12px;
 left: 1.5em; }
 
 #venue h1+h2, #venue h1+h2+p, #venue h1+h2+p+h2+p+h2, #venue h1+h2+p+h2+p+h2+p, #venue-map + h2, #venue-map + h2+p {float: left;
-clear: left; }
+clear: left; 
+dsplay: block}
 
 #venue h1+h2+p+h2, #venue h1+h2+p+h2+p,  #venue h1+h2+p+h2+p+h2+p+h2, #venue h1+h2+p+h2+p+h2+p+h2+p, #venue-map + h2+p+h2, #venue-map + h2+p+h2+p {width: 30%;
-padding-left: 30%; }
+padding-left: 30%; 
+dsplay: block}
 
 #venue-map {width: 100%;
 height: 400px;
 margin-top: 1.5em; }
 
-#venue-map:before {content: "";
-display: block;
-width: 100%;
-background: url(images/border-1.png) repeat-x;
-height: 27px;
-position: relative;
-z-index: 11; }
-
-#venue-map:after {content: "";
-display: block;
-width: 100%;
-background: url(images/border-2.png) repeat-x;
-height: 33px;
-position: relative;
-top: 341px;
-margin-bottom: 0; }
 
 /* Register / pricing */
 
@@ -435,20 +457,20 @@ line-height: 1.5em; }
 #register td:last-of-type {text-align: left; }
 
 #register .recommended {
-color: #fc5b31}
+color: #ce0d14}
 
-#register .recommended td {color: #fc5b31; }
+#register .recommended td {color: #ce0d14; }
 
 #register table + p {margin-top: 1.5em; }
 
 #register li {list-style: outside circle; }
 
-.button {background: #fc5b31 url(images/dots.png);
+.button {background: #ce0d14 url(images/dots.png);
 color: #fff;
 display: inline-block;
 padding: .75em 1.5em; }
 
-nav .button {background: #fc5b31 url(images/dots.png);
+nav .button {background: #ce0d14 url(images/dots.png);
 color: #fff;
 display: inline-block;
 padding: .3em 1em;
@@ -516,7 +538,7 @@ max-height: 70px;
 position: relative;
 z-index: 9; }
 
-#sponsors a:hover h4, #sponsors a:focus h4 {color: #fc5b31; }
+#sponsors a:hover h4, #sponsors a:focus h4 {color: #ce0d14; }
 
 #sponsors a:after {content: "";
 display: block;
@@ -539,13 +561,6 @@ footer {background: #eee;
 padding-bottom: 1.5em;
 position: relative;
 margin-top: 3em; }
-
-footer:before {content: "";
-display: block;
-width: 100%;
-background: url(images/border-1.png) repeat-x;
-height: 25px;
-position: relative; }
 
 footer #contact {width: 35%;
 padding-right: 35%;
@@ -572,9 +587,11 @@ footer a:hover, footer a:focus {color: #555; }
 float: left }
 
 #schedule .day-overview h2 {text-align: left;
-font-size: 1.2em;
+font-size: 1.8em;
 margin-left: 0;
-padding-left: 0 }
+padding: .2em;
+display: inline-block;
+ }
 
 .day-overview table {width: 100% }
 
@@ -618,7 +635,7 @@ vertical-align: middle; }
 vertical-align: middle; }
 
 #schedule table .speaker {font-style: italic;
-color: #fc5b31; }
+color: #ce0d14; }
 
 #schedule table .sessiontitle {font-weight: bold; }
 
