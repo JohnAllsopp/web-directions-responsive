@@ -1,30 +1,3 @@
-@keyframes yellow-fade {0% {
-background-color: transparent }
-
-50% {background-color: yellow }
-
-100% {background-color: transparent }
-
-}
-
-@-webkit-keyframes yellow-fade {0% {
-background-color: transparent }
-
-50% {background-color: yellow }
-
-100% {background-color: transparent }
-
-}
-
-@-moz-keyframes yellow-fade {0% {
-background-color: transparent }
-
-50% {background-color: yellow }
-
-100% {background-color: transparent }
-
-}
-
 /* Eric Meyer's Reset CSS v2.0 */
 
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {border:0;
@@ -53,10 +26,10 @@ color: #222;
 padding-top: 110px; }
 
 a {text-decoration: none;
-color: #ac090a;
+color: #fc5b31;
 padding-bottom: 1px; }
 
-a:hover, a:focus {border-bottom: 2px solid #ac090a; }
+a:hover, a:focus {border-bottom: 2px solid #fc5b31; }
 
 sup {vertical-align: super;
 font-size: .625em;
@@ -179,7 +152,7 @@ border-bottom-color: rgba(0, 0, 0, 0)}*/
 
 nav a {color: #222; }
 
-nav .active {border-bottom: 2px solid #ac090a; }
+nav .active {border-bottom: 2px solid #fc5b31; }
 
 nav .active:focus, nav .active:hover {border-bottom-color: #bbb; }
 
@@ -191,8 +164,8 @@ right: 0;
 width: 28%;
 padding: .75em 1%;
 background: #fff;
-border-left: 2px solid #ac090a;
-border-bottom: 2px solid #ac090a; }
+border-left: 2px solid #fc5b31;
+border-bottom: 2px solid #fc5b31; }
 
 /* Generic content styles */
 
@@ -215,7 +188,7 @@ clear: both;
 margin-bottom: .281em; }
 
 h2 {font-style: italic;
-color: #ac090a;
+color: #fc5b31;
 margin-top: 1.5em;
 margin-bottom: .325em; }
 
@@ -321,7 +294,7 @@ font-family: Georgia, serif;
 font-style: italic;
 text-transform: none;
 letter-spacing: 0;
-color: #ac090a;
+color: #fc5b31;
 font-weight: bold; }
 
 #schedule .session .title, #workshops .title {display: block;
@@ -337,7 +310,7 @@ margin-left: -.5em; }
 #schedule .break a {border-bottom: 2px solid #bbb;
 color: #999; }
 
-#schedule .break a:focus, #schedule .break a:hover {color: #ac090a;
+#schedule .break a:focus, #schedule .break a:hover {color: #fc5b31;
 border-bottom-color: #999; }
 
 #schedule .bio, #workshops .bio {font-style: italic;
@@ -486,7 +459,7 @@ border-bottom: 2px solid #bbb; }
 
 @media all and (min-width: 820px) {
 
-#register table {width: 60%;
+#register table {width: 80%;
 margin: 1em 0 0 0; }
 
  }
@@ -501,7 +474,10 @@ font-style: italic;
 color: #555;
 font-size: .875em;
 line-height: 1.714em; 
-width: 32%}
+width: 20%}
+
+#register td:first-of-type {
+width: 60%}
 
 #register td[rowspan] {font-style: normal;
 color: #222;
@@ -524,12 +500,12 @@ color: #fff }
 
 #register li {list-style: outside circle; }
 
-.button {background: #ac090a url(images/dots.png);
+.button {background: #fc5b31 url(images/dots.png);
 color: #fff;
 display: inline-block;
 padding: .75em 1.5em; }
 
-nav .button {background: #ac090a url(images/dots.png);
+nav .button {background: #fc5b31 url(images/dots.png);
 color: #fff;
 display: inline-block;
 padding: .3em 1em;
@@ -597,7 +573,7 @@ max-height: 70px;
 position: relative;
 z-index: 9; }
 
-#sponsors a:hover h4, #sponsors a:focus h4 {color: #ac090a; }
+#sponsors a:hover h4, #sponsors a:focus h4 {color: #fc5b31; }
 
 #sponsors a:after {content: "";
 display: block;
@@ -722,7 +698,7 @@ min-height: 25px}
 
 #schedule table .speaker {
 	font-style: italic;
-	color: #ac090a;
+	color: #fc5b31;
 	}
 
 #schedule table .sessiontitle {
