@@ -54,7 +54,6 @@ padding-top: 1.75em; }
 
  }
 
-
 @media all and (min-width: 820px) {
 
 header:after {margin-top: -20px; }
@@ -91,7 +90,6 @@ width: auto;
 height: auto; }
 
  }
-
 
 #logo:hover:after, #logo:focus:after {background: none; }
 
@@ -186,13 +184,12 @@ letter-spacing: .1em; }
 height: 200px;
 margin-top: -10px;
 background: url(images/operahouse.jpg) center center no-repeat;
-background-size: cover}
+background-size: cover }
 
 #intro h1 span {display: block }
 
-#intro h1 span:last-of-type {
-font-size: .9em; 
-font-weight: 200}
+#intro h1 span:last-of-type {font-size: .9em;
+font-weight: 200 }
 
 @media all and (min-width: 820px) {
 
@@ -221,8 +218,6 @@ margin-top: 0;
 margin-bottom: 0;
 position: relative;
 z-index: 100 }
-
-
 
 /* Schedule, Workshops */
 
@@ -299,7 +294,6 @@ height: auto; }
 #schedule img, #workshops img {width: 170px;
 margin-top: 2em; }
 
-
 #schedule .links, #workshops .links {margin-top: 1em;
 padding-bottom: 1em; }
 
@@ -328,19 +322,13 @@ font-size: 1em; }
 #workshops .info {background: #eee;
 padding: .75em; }
 
+ }
+
 @media all and (min-width: 800px) {
 
-#workshops .info {position: absolute;
-top: 200px;
-left: 0;
-width: 150px;
-padding: .75em 2%; }
+ }
 
 #workshops .info .button {padding: .75em 1em }
-
-}
-
- }
 
 @media all and (min-width: 1024px) {
 
@@ -432,28 +420,24 @@ font-size: .9em; }
 font-style: italic;
 color: #555;
 font-size: .875em;
-line-height: 1.714em; 
-width: 20%}
+line-height: 1.714em;
+width: 20% }
 
-#register td:first-of-type {
-width: 60%}
+#register td:first-of-type {width: 60% }
 
 #register td[rowspan] {font-style: normal;
 color: #222;
 font-size: 1em;
 line-height: 1.5em; }
 
-#register td[rowspan='2'], #register td[rowspan='2']+td, #register td[rowspan='2']+td+td, #register td[rowspan='2']+td+td+td {padding-top: 3em; }
+#register td:last-of-type {padding-top: 3em; }
 
 #register td:last-of-type {text-align: left; }
 
 #register .recommended {
-background-color: blue;
-color: #fff }
+color: #fc5b31}
 
-#register .recommended td {
-background-color: blue;
-color: #fff }
+#register .recommended td {color: #fc5b31; }
 
 #register table + p {margin-top: 1.5em; }
 
@@ -582,103 +566,73 @@ footer a {border-bottom: 2px solid #bbb; }
 
 footer a:hover, footer a:focus {color: #555; }
 
-
-
 /*day details*/
 
-.day-overview {
-	width: 50%;
-float: left
-}
+.day-overview {width: 50%;
+float: left }
 
-#schedule .day-overview h2 {
-	text-align: left;
+#schedule .day-overview h2 {text-align: left;
 font-size: 1.2em;
 margin-left: 0;
-padding-left: 0
-}
+padding-left: 0 }
 
-.day-overview table {
-width: 100%}
-
+.day-overview table {width: 100% }
 
 /*schedule table */
 
-#schedule h3 {
-	margin-top: 2em}
+#schedule h3 {margin-top: 2em }
 
-#schedule table  {
-width: 100%;
+#schedule table {width: 100%;
 float: left;
 font-size: .8em;
-	margin: 1em 0}
+margin: 1em 0 }
 
-#schedule table:first-of-type  {
-	border-right: solid thin white}
+#schedule table:first-of-type {border-right: solid thin white }
 
-#schedule table:nth-of-type(2)  {
-	width: 44%}
+#schedule table:nth-of-type(2) {width: 44% }
 
-#schedule tr:first-of-type {
-	height: 2em;
+#schedule tr:first-of-type {height: 2em;
+vertical-align: middle;
+/*border-bottom: solid thin #ccc*/
+	font-weight: bold; }
+
+#schedule th {text-align: left;
+padding-left: 1em }
+
+#schedule tr {/*height: 4em;
+*/
 	vertical-align: middle;
-	/*border-bottom: solid thin #ccc*/
-	font-weight: bold; 
-}
-
-#schedule th {
-	text-align: left;
-	padding-left: 1em}
-
-#schedule tr {
-	/*height: 4em;*/
-	vertical-align: middle;
-	/*border-bottom: solid thin #ccc*/
+/*border-bottom: solid thin #ccc*/
 min-height: 2.6em;
-min-height: 25px}
+min-height: 25px }
 
-#schedule tr:nth-of-type(odd) {
-	background-color: #efefef}
+#schedule tr:nth-of-type(odd) {background-color: #efefef }
 
-#schedule table .sessiontime, #schedule table .speaker, #schedule table .sessiontitle {
-	display: block; 
-}
+#schedule table .sessiontime, #schedule table .speaker, #schedule table .sessiontitle {display: block; }
 
-#schedule table .sessiontime {
-	font-size: .8em;
-	padding: 0 1em;
-	vertical-align: middle;
-	}
+#schedule table .sessiontime {font-size: .8em;
+padding: 0 1em;
+vertical-align: middle; }
 
-#schedule table .speaker, #schedule table .sessiontitle {
-	padding: 0 1em;
-	vertical-align: middle;
-	}
+#schedule table .speaker, #schedule table .sessiontitle {padding: 0 1em;
+vertical-align: middle; }
 
-#schedule table .speaker {
-	font-style: italic;
-	color: #fc5b31;
-	}
+#schedule table .speaker {font-style: italic;
+color: #fc5b31; }
 
-#schedule table .sessiontitle {
-	font-weight: bold; 
-}
+#schedule table .sessiontitle {font-weight: bold; }
 
 /*pricing*/
 
-.priceOption {
-width: 30%;
+.priceOption {width: 30%;
 padding: 0 1%;
 margin-bottom: 1em;
 background-color: #ebebeb; }
 
-.priceOption.recommended {
-width: 60%;
-font-size: 1.1em; 
-float: right;
-}
+.priceOption.recommended {width: 60%;
+font-size: 1.1em;
+float: right; }
 
-#register .priceOption p {
-width: 100%}
+#register .priceOption p {width: 100% }
 
-#register>p {clear: both}
+#register>p {clear: both }
