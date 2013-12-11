@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0; maximum-scale=1.0;">
 
-	<link rel=stylesheet media="all and (min-width:601px)" href=default.css>
+	<link rel=stylesheet media="all and (min-width:601px)" href=style.css>
 	<link rel=stylesheet media="all and (min-width:601px) and (max-width:980px)" href=mediumwidth.css>
 	<link rel=stylesheet media="all and (max-width: 601px)" href=narrow.css>		
 	<link rel=icon href=favicon.png>
@@ -19,9 +19,9 @@
 	<link rel=alternate type=application/rss+xml title="Web Directions News" href=http://webdirections.org/feed>
 
 
-	<!-- <script src=https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js></script>
-	<script src=javascript/combined-header.min.js></script> -->
-	<script src="javascript/sticker.js"></script>
+	<script src=https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js></script>
+	<script src=javascript/combined-header.min.js></script>
+	<script src="javascript/sticker.js"></script> <!-- need to only use if not < 600px-->
 	
 	<!--[if lt IE 9]>
 		<script src="javascript/html5shiv.min.js"></script>
@@ -35,7 +35,7 @@
 	<header>
 		<a id=logo href=#home><img src=images/redlogo.png alt="Web Directions Respond" ><span class="logotype">web directions</span></a>
 		
-		<p class=dates>Sydney, Feb. 4&mdash;5 2014</p>
+		<p class=dates>Sydney, Feb. 4th &amp; 5th 2014</p>
 	</header>
 	
 	<section id="respond">
@@ -57,15 +57,11 @@
 	</section>
 	
 	
-<section id=spiel> 
+	<section id=spiel> 
 <p>A two day festival of Responsive Web Design, for designers and developers facing the challenges of the modern Web.</p>
 
 <p>Hear from the experts who started the Responsive Web Design revolution, including Ethan "Mr Responsive" Marcotte, Brad Frost, Jason Grigsby, and John "A Dao of Web Design" Allsopp.</p>
-
-<p>Attend either day for $599, or both for just $999 (with discount available for attendees of past Web Directions events.) Places are limited, so register now and avoid missing out on Australia's Responsive Web Design event.</p>
-
-<p><a class=button onClick="_gaq.push(['_trackEvent', 'Register', 'Register', 'Register button in header clicked!',, false]);" href="https://secure.webdirections.org/responsiveSyd14/register/billing">Register</a></p>
-</section>
+			</section>
 	
 	<section id=schedule class="vcalendar">
 		<h1>Schedule</h1>
@@ -77,14 +73,8 @@
 	
 	<p>Your only chance to see Brad Frost, in this in-depth all day masterclass "Working with Atomic Design and Responsive Patterns".</p>
 	
-			<h3 class="summary">
-				<span class="name">Brad Frost</span>
-				<span class="title">Bits and Pieces–Working with Atomic Design and Responsive Patterns</span>
-			</h3>
-			
-<p>"We're not designing pages anymore. We're designing systems of components." As with most things Stephen Hay says, he's right. Over the past few years, we've witnessed an explosion of Web-enabled devices, and that explosion has forced the Web community to embrace a more systematic approach to designing interfaces.</p>
+<p>This full-day workshop will take a deep dive into the world of responsive web design, how to deconstruct interfaces down to their atomic elements, and how to introduce design systems into your workflow</p>
 
-<p>This full-day workshop will take a deep dive into the world of responsive web design, how to deconstruct interfaces down to their atomic elements, and how to introduce design systems into your workflow. We'll look at a ton of emerging responsive patterns, new tools and resources to help you design multi-device Web experiences. Sound like fun? We hope so!</p>
 <h4>What you'll learn</h4>
 <ul>
 	<li>An overview of the ever-shifting Web landscape</li>
@@ -94,46 +84,31 @@
 	<li>The pros and cons of many emerging responsive design patterns</li>
 </ul>
 
-<section class="bio">
-<h3>About Brad Frost</h3>
-
-<img class="dinkus" alt="Photo of Brad Frost" src=images/speaker-b-frost.jpg>
-
-<p><a href="http://bradfrostweb.com/">Brad Frost</a> is a web designer, speaker, writer, and consultant located in beautiful Pittsburgh, PA. He is the creator of <a href="http://bradfrost.github.com/this-is-responsive/">This Is Responsive</a>, a collection of patterns, resources and news to help people create great responsive web experiences.</p>
-
-<p>He also created <a href="http://mobilewebbestpractices.com/">Mobile Web Best Practices</a>, a resource site that lays out considerations for creating great mobile web experiences. He curates <a href="http://wtfmobileweb.com/">WTF Mobile Web</a>, a site that teaches by example what not to do when working with the mobile web. He is passionate about the Web and is constantly <a href="https://twitter.com/brad_frost">tweeting</a>, <a href="http://bradfrostweb.com/blog/">writing</a> and <a href="http://bradfrostweb.com/speaking/">speaking</a> about it.	</p>
-</section>
-</section>
+	</section>
 	
 	<section class="day-overview">
 	<h2>Day Two, Conference</h2>
-	<h3>February 5th	<abbr class="dtstart" title="2014-02-06T09:00:00">9:00am</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2014-02-06T17:30:00">5:30pm</abbr>
+	<h3>February 5th	<abbr class="dtstart" title="2014-02-06T09:00:00">9:00am</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2014-02-06T17:00:00">5:00pm</abbr>
 </h3>
 <dl>
-	<dt>Mobile First Responsive Design</dt>
-		<dd>Jason Grigsby</dd>
-	<dt>What responsive web design can learn from accessibility best practice</dt>
-		<dd>Adem Cifcioglu</dd>
-	<dt>Responsive images, the current state of play</dt>
-		<dd>Ryan Seddon</dd>
-	<dt>Media queries - Responsive Web Design's Hammer</dt>
-		<dd>Fiona Chan</dd>
-	<dt>Responsive Charts and Infographics</dt>
-		<dd>Colin Gourlay</dd>
-	<dt>How Well Are You Delivering Your Experience?</dt>
-		<dd>Andrew Fisher</dd>
-	<dt>Responsive Commerce</dt>
-		<dd>David Lewis</dd>
-	<dt>The Challenge of Responsive Email Design</dt>
-		<dd>Cathy Lill</dd>
-	<dt>Responsive Navigation Patterns</dt>
-		<dd>Craig Sharkie</dd>
-	<dt>My God, how did we get here?</dt>
-		<dd>John Allsopp</dd>
-	<dt>The Map And The Territory</dt>
-		<dd>Ethan Marcotte</dd>
-	<dt>On the couch</dt>
-		<dd>Ethan Marcotte, Jason Grigsby and John Allsopp</dd>
+	<dt>The politics of JavaScript</dt>
+		<dd>Angus Croll</dd>
+	<dt>Taking JavaScript seriously</dt>
+		<dd>Jeremy Ashkenas</dd>
+	<dt>Create impact with CSS filters</dt>
+		<dd>Alex Danilo</dd>
+	<dt>What's ECMAScript 6 good for?</dt>
+		<dd>Julio Cesar Ody</dd>
+	<dt>CSS preprocessor performance</dt>
+		<dd>Nicole Sullivan</dd>
+	<dt>Making and keeping promises in JavaScript</dt>
+		<dd>Tony Milne</dd>
+	<dt>An introduction to the File API</dt>
+		<dd>Cameron McCormack</dd>
+	<dt>HTML5 Multi-party video conferencing</dt>
+		<dd>Silvia Pfeiffer</dd>
+	<dt>See the tries for the trees</dt>
+		<dd>Jared Wyles</dd>
 	<dt>Reception</dt>
 		<dd>Pumphouse Darling Harbour</dd>
 </dl>
@@ -147,7 +122,7 @@
 	
 		<p>Day One of Web Directions Respond is a full day masterclass with renowned mobile and Web designer, Brad Frost.</p>
 
-		<section class="vevent session" id="BradFrost"">
+		<section class="vevent session" id="BradFrost">
 			
 			<figure>
 			<img class="dinkus" alt="Photo of Brad Frost" src=images/speaker-b-frost.jpg>
@@ -203,33 +178,30 @@
 		
 		<p>Day Two is a full day single track conference featuring Ethan Marcotte, Jason Grigsby, John Allsopp and more, covering responsive techniques, challenges and workflows.</p>
 		
-		<section class="vevent session" id="JasonGrigsby">
+		<section class="vevent session" id="GarannMeans">
 			
 			
-		<figure>
-			<img class="dinkus" alt="Photo of Jason Grigsby" src=images/speaker_j-grigsby.jpg>
-			<figcaption>Jason Grigsby</figcaption>
+						<figure>
+			<img class="dinkus" alt="Photo of Garann Means" src=images/speaker_g-means.jpg>
+			<figcaption>Garann Means</figcaption>
 			</figure>
 			
 			<section class=description>
 			
 						
 			<h3 class="summary">
-				<span class="name">Jason Grigsby</span>
 				<span class="title">HTML, CSS and the client-side app</span>
 			</h3>
 			
-				<p>Mobile first and responsive web design aren't simply two great tastes that go great together. They represent much more than that. Mobile first responsive web design is the responsible way to build responsive design. It is the best way to build something that is both responsive from a layout AND a performance perspective.</p>
-
-<p>But if mobile first is the right way to do responsive design, then why are so few people doing it? In this session, we'll dig into why mobile first responsive design matters and the techniques necessary to make it work.</p>
+				<p>Everyone knows client-side applications are built with JavaScript. Right? JavaScript ties the application together, but a considerable amount of most applications deals with markup and presentation. As much as they affect JavaScript, state, event handling, and default browser behaviour also impact HTML and CSS in the choices we make, optimizations we can take advantage of, and the architecture of our applications as a whole. And the HTML and CSS that make up the structure of our applications need to be managed just as much as our JavaScript does. We&rsquo;ll talk about how HTML and CSS fit into the the big picture and how to take greater advantage of them in a context where we frequently consider them last.</p>
 			</section>
 			
 			<section class=bio>
 			
-			<h3>About Jason Grigsby</h3>
+			<h3>About Garann Means</h3>
 				
-<p>In 2000, Jason Grigsby got his first mobile phone. He became obsessed with how the world could be a better place if everyone had access to all that information in their pockets. Those mobile dreams hit the hard wall of reality: WAP was crap. So Jason went to work on the web until 2007, when the iPhone made it clear the time was right. He joined forces with the three smartest people he knew and started Cloud Four.</p>
-<p>Since then, he has had the good fortune to work on many fantastic projects, including the Obama iPhone App. A sought‐after speaker and consultant on mobile, Jason is founder and president of Mobile Portland, a local nonprofit dedicated to promoting the mobile community in Portland, Oregon.</section>
+				<p>Garann is a JavaScript developer from Austin, Texas, USA. She&rsquo;s the author of Node for Front-End Developers and the organizer of Austin All&ndash;Girl Hack Night and Girl Develop It Austin. Garann is also one of the hosts of the Frip Frap web development podcast.</p>
+			</section>
 			
 			<aside class=links>
 				<ul>
@@ -284,12 +256,12 @@
 		<section class="venue-details">		
 
 		<h2>Accommodation</h2>
-		<p>Traveling from out of town on a budget? We&rsquo;ve pulled together a bunch of cheap and cheerful (as well as slightly more extravagant) options for accommodation and <a href="https://maps.google.com.au/maps/ms?msid=207650445216355917421.0004ba25c0c740b782d25&amp;msa=0&amp;ll=-37.81309,144.963763&amp;spn=0.01585,0.02871">put them on a map</a> for you. Check out <a href="http://www.wotif.com/hotels/landmarks/australia/powerhouse-museum-hotels.html?destinations=&searchTerms=Powerhouse+Museum%2C+Sydney%27s+largest+public+museum.+Its+exhibitions+span+many+areas+including+science%2C+industry%2C+design%2C+technology%2C+and+more.%2C+Ultimo&hotel=&country=&region=&destination=&adults=2&children=0&refine=Search&accommodationTypeMatch=&roomTypeCategoryMatch=&starRatingMatch=&maximumPrice=&selectedSuggestionId=&startDay=2014-02-04&formSearch=true&previousSearchTerms=&page=8&viewType=all" title="Wotif.com:  hotels, accommodation, motels, serviced apartments, B&amp;B - Online hotel bookings with instant confirmation">Wotif</a> and <a href="https://www.airbnb.com.au/s?location=ultimo&checkin=&checkout=&guests=1">Airbnb</a> as well. You can almost always find something affordable only a short walk from the venues. But hey, if you or you boss are happy to stump up for the Hilton, don&rsquo;t let us stop you!</p>
+		<p>Traveling from out of town on a budget? We&rsquo;ve pulled together a bunch of cheap and cheerful (as well as slightly more extravagant) options for accommodation and <a href="https://maps.google.com.au/maps/ms?msid=207650445216355917421.0004ba25c0c740b782d25&amp;msa=0&amp;ll=-37.81309,144.963763&amp;spn=0.01585,0.02871">put them on a map</a> for you. Check out <a href="http://www.wotif.com/" title="Wotif.com:  hotels, accommodation, motels, serviced apartments, B&amp;B - Online hotel bookings with instant confirmation">Wotif</a> and <a href="https://www.airbnb.com.au/s?location=ultimo&checkin=&checkout=&guests=1">Airbnb</a> as well. You can almost always find something affordable only a short walk from the venues. But hey, if you or you boss are happy to stump up for the Hilton, don&rsquo;t let us stop you!</p>
 		</section>
 		
 		<section class="venue-details">		
 		<h2>Eating, drinking and socialising</h2>
-		<p>Attending a conference like Web Directions Respond is a whole lot more than what happens from 9 to 5, and Sydney has countless great places to grab a drink or a meal at any hour of the night or day. Impress your new friends by taking them to one of the <a href="https://maps.google.com.au/maps/ms?msid=211357686718093723450.0004bf0369f8be3a3c1a0&msa=0&ll=-33.876437,151.205134&spn=0.032922,0.052099&dg=feature">awesome places on our map</a>. And Sydney-siders, don&rsquo;t hold back with <a href=mailto:info@webdirections.org>sharing any awesome hidden gems</a> we don&rsquo;t know about!</p>
+		<p>Attending a conference like Web Directions Respond is a whole lot more than what happens from 9 to 5, and Sydney has countless great places to grab a drink or a meal at any hour of the night or day. Impress your new friends by taking them to one of the <a href="https://maps.google.com.au/maps/ms?msid=207650445216355917421.0004ba25c0c740b782d25&amp;msa=0&amp;ll=-37.81309,144.963763&amp;spn=0.01585,0.02871">awesome places on our map</a>. And Melbournites, don&rsquo;t hold back with <a href=mailto:info@webdirections.org>sharing any awesome hidden gems</a> we don&rsquo;t know about!</p>
 		</section>
 		
 	</section>
@@ -441,7 +413,7 @@
 	</script>
 
 	
-<script src=javascript/maps.js></script>
+	<script src=javascript/combined-footer.min.js></script>
 	<script type="text/javascript">
 		var _gaq = _gaq || [];
 		var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
@@ -453,6 +425,6 @@
 		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		})();
-	</script> 
+	</script>
 </body>
 </html>
