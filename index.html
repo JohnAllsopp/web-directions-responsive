@@ -5,9 +5,9 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0; maximum-scale=1.0;">
 
-	<link rel=stylesheet media="all and (min-width:601px)" href=default.css>
-	<link rel=stylesheet media="all and (min-width:601px) and (max-width:980px)" href=mediumwidth.css>
-	<link rel=stylesheet media="all and (max-width: 601px)" href=narrow.css>		
+	<link rel=stylesheet media="all and (min-width:601px)" href="css/default.css">
+	<link rel=stylesheet media="all and (min-width:601px) and (max-width:799px)" href="css/mediumwidth.css">
+	<link rel=stylesheet media="all and (max-width: 600px)" href="css/narrow.css">		
 	<link rel=icon href=favicon.png>
 	
 	<title>Web Directions Respond 2014</title>
@@ -39,7 +39,7 @@
 	</header>
 	
 	<section id="respond">
-			<h1><span>Respond</span></h1>
+			<h1><abbr title="Respond"><span aria-hidden="true" role="presentation" tabindex="-1" id="char1">R</span><span aria-hidden="true" role="presentation" tabindex="-1" id="char2">e</span><span aria-hidden="true" role="presentation" tabindex="-1" id="char3">s</span><span aria-hidden="true" role="presentation" tabindex="-1" id="char4">p</span><span aria-hidden="true" role="presentation" tabindex="-1" id="char5">o</span><span aria-hidden="true" role="presentation" tabindex="-1" id="char6">n</span><span aria-hidden="true" role="presentation" tabindex="-1" id="char7">d</span></abbr></h1>
 
 		
 		<!--[if lte IE 7]>
@@ -47,44 +47,54 @@
 		<![endif]-->
 					<nav>
 			<ol>
-				<li><a href="#schedule" class="internal">Schedule</a></li>
-				<li><a href="#venue" class="internal">Venue</a></li>
-				<li><a href="#register" class="internal">Pricing</a></li>
-				<li><a href="#sponsors" class="internal">Sponsors</a></li>
-				<li><a class=button onClick="_gaq.push(['_trackEvent', 'Register', 'Register', 'Register button in header clicked!',, false]);" href="https://secure.webdirections.org/responsiveSyd14/register/billing">Register</a></li>
+				<li><a href="#schedule" class="internal scroll">Schedule</a></li>
+				<li><a href="#venue" class="internal scroll">Venue</a></li>
+				<li><a href="#register" class="internal scroll">Pricing</a></li>
+				<!-- <li><a href="#sponsors" class="internal scroll">Sponsors</a></li> -->
+				<li><a class=button onClick="_gaq.push(['_trackEvent', 'Register', 'Register', 'Register button in header clicked!',, false]);" href="https://secure.webdirections.org/respond2014/register/billing">Register</a></li>
 			</ol>
 		</nav>
 	</section>
 	
 	
 <section id=spiel> 
-<p>A two day festival of Responsive Web Design, for designers and developers facing the challenges of the modern Web.</p>
+<p>A festival of Responsive Web Design for designers and developers of the multi-device Web.</p>
 
-<p>Hear from the experts who started the Responsive Web Design revolution, including Ethan "Mr Responsive" Marcotte, Brad Frost, Jason Grigsby, and John "A Dao of Web Design" Allsopp.</p>
+<p>Day one is an all day, fully catered masterclass, "<strong>Working with Atomic Design and Responsive Patterns</strong>" with <em>Brad Frost</em>.</p>
 
-<p>Attend either day for $599, or both for just $999 (with discount available for attendees of past Web Directions events.) Places are limited, so register now and avoid missing out on Australia's Responsive Web Design event.</p>
+<p>Day two is a one track, all day conference on all things Responsive, featuring the founder of Responsive Design, <em>Ethan Marcotte</em>, <em>Jason Grigsby</em>, and Web Direction's own <em>John Allsopp</em>, whose article from the year 2000, <strong>A Dao of Web Design</strong> is widely considered to be the foundations of Responsive Web Design.</p>
+<p>Attend either day for $599, or both for just $999.</p>
 
-<p><a class=button onClick="_gaq.push(['_trackEvent', 'Register', 'Register', 'Register button in header clicked!',, false]);" href="https://secure.webdirections.org/responsiveSyd14/register/billing">Register</a></p>
+<p><a class=button onClick="_gaq.push(['_trackEvent', 'Register', 'Register', 'Register button in header clicked!',, false]);" href="https://secure.webdirections.org/respond2014/register/billing">Register Now</a></p>
+
+
 </section>
 	
-	<section id=schedule class="vcalendar">
-		<h1>Schedule</h1>
+	<section id=schedule class="vcalendar">	
+	<section class="day-overview" id="feb4">
+	<h2>Masterclass</h2>
 	
-	<section class="day-overview">
-	<h2>Day One, Masterclass</h2>
-	<h3>February 4th, <abbr class="dtstart" title="2014-02-05T09:00:00">9:00am</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2014-02-05T17:00:00">5:00pm</abbr>
-</h3>
-	
-	<p>Your only chance to see Brad Frost, in this in-depth all day masterclass "Working with Atomic Design and Responsive Patterns".</p>
-	
-			<h3 class="summary">
-				<span class="name">Brad Frost</span>
-				<span class="title">Bits and Pieces–Working with Atomic Design and Responsive Patterns</span>
-			</h3>
 			
-<p>"We're not designing pages anymore. We're designing systems of components." As with most things Stephen Hay says, he's right. Over the past few years, we've witnessed an explosion of Web-enabled devices, and that explosion has forced the Web community to embrace a more systematic approach to designing interfaces.</p>
+		
+			<h3 class="summary">
+			<figure>
+			<img class="dinkus" alt="Photo of Brad Frost" src=images/speaker_b-frost.jpg>
+			<figcaption>Brad Frost</figcaption>
+			</figure>
 
-<p>This full-day workshop will take a deep dive into the world of responsive web design, how to deconstruct interfaces down to their atomic elements, and how to introduce design systems into your workflow. We'll look at a ton of emerging responsive patterns, new tools and resources to help you design multi-device Web experiences. Sound like fun? We hope so!</p>
+				<span class="name">Brad Frost</span>
+				<span class="title">Working with Atomic Design and Responsive Patterns</span>
+				
+				<p>Feb 4th: 9.00am&mdash;5:00pm</p> 
+			</h3>
+	
+<p>Join <strong>Brad Frost</strong> for a full-day, fully catered masterclass</p>		
+<p>"We're not designing pages anymore. We're designing systems of components."</p>
+<p> As with most things Stephen Hay says, he's right. Over the past few years, we've witnessed an explosion of Web-enabled devices, and that explosion has forced the Web community to embrace a more systematic approach to designing interfaces.</p>
+
+<p>Take a deep dive into the world of responsive web design, how to deconstruct interfaces down to their atomic elements, and how to introduce design systems into your workflow. We'll look at a ton of emerging responsive patterns, new tools and resources to help you design multi-device Web experiences. Sound like fun? We hope so!
+</p>
+
 <h4>What you'll learn</h4>
 <ul>
 	<li>An overview of the ever-shifting Web landscape</li>
@@ -95,120 +105,116 @@
 </ul>
 
 <section class="bio">
-<h3>About Brad Frost</h3>
-
-<img class="dinkus" alt="Photo of Brad Frost" src=images/speaker-b-frost.jpg>
 
 <p><a href="http://bradfrostweb.com/">Brad Frost</a> is a web designer, speaker, writer, and consultant located in beautiful Pittsburgh, PA. He is the creator of <a href="http://bradfrost.github.com/this-is-responsive/">This Is Responsive</a>, a collection of patterns, resources and news to help people create great responsive web experiences.</p>
 
-<p>He also created <a href="http://mobilewebbestpractices.com/">Mobile Web Best Practices</a>, a resource site that lays out considerations for creating great mobile web experiences. He curates <a href="http://wtfmobileweb.com/">WTF Mobile Web</a>, a site that teaches by example what not to do when working with the mobile web. He is passionate about the Web and is constantly <a href="https://twitter.com/brad_frost">tweeting</a>, <a href="http://bradfrostweb.com/blog/">writing</a> and <a href="http://bradfrostweb.com/speaking/">speaking</a> about it.	</p>
+<!-- <p>He also created <a href="http://mobilewebbestpractices.com/">Mobile Web Best Practices</a>, a resource site that lays out considerations for creating great mobile web experiences. He curates <a href="http://wtfmobileweb.com/">WTF Mobile Web</a>, a site that teaches by example what not to do when working with the mobile web. He is passionate about the Web and is constantly <a href="https://twitter.com/brad_frost">tweeting</a>, <a href="http://bradfrostweb.com/blog/">writing</a> and <a href="http://bradfrostweb.com/speaking/">speaking</a> about it.	</p> -->
 </section>
 </section>
 	
-	<section class="day-overview">
-	<h2>Day Two, Conference</h2>
-	<h3>February 5th	<abbr class="dtstart" title="2014-02-06T09:00:00">9:00am</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2014-02-06T17:30:00">5:30pm</abbr>
-</h3>
+	<section class="day-overview" id="feb5">
+	<h2>Conference</h2>
+	
+		<h3 class="summary">
+
+			<figure>
+			<img class="dinkus" alt="Photo of The speakers" src=images/speaker_j-allsopp.jpg>
+			<figcaption>John Allsopp</figcaption>
+			</figure>
+
+			<figure>
+			<img class="dinkus" alt="Photo of The speakers" src=images/speaker_j-grigsby.jpg>
+			<figcaption>Jason Grigsby</figcaption>
+			</figure>
+			
+			<figure>
+			<img class="dinkus" alt="Photo of The speakers" src=images/speaker_e-marcotte.jpg>
+			<figcaption>Ethan Marcotte</figcaption>
+			</figure>
+
+
+				<span class="title">Hear from the experts who started the Responsive Web Design revolution</span>
+				
+				<p>Feb 5th: 9.00am&mdash;5:00pm</p> 
+			</h3>
+
+	
 <dl>
-	<dt>Mobile First Responsive Design</dt>
-		<dd>Jason Grigsby</dd>
-	<dt>What responsive web design can learn from accessibility best practice</dt>
-		<dd>Adem Cifcioglu</dd>
-	<dt>Responsive images, the current state of play</dt>
-		<dd>Ryan Seddon</dd>
-	<dt>Media queries - Responsive Web Design's Hammer</dt>
-		<dd>Fiona Chan</dd>
-	<dt>Responsive Charts and Infographics</dt>
-		<dd>Colin Gourlay</dd>
-	<dt>How Well Are You Delivering Your Experience?</dt>
-		<dd>Andrew Fisher</dd>
-	<dt>Responsive Commerce</dt>
-		<dd>David Lewis</dd>
-	<dt>The Challenge of Responsive Email Design</dt>
-		<dd>Cathy Lill</dd>
-	<dt>Responsive Navigation Patterns</dt>
-		<dd>Craig Sharkie</dd>
-	<dt>My God, how did we get here?</dt>
-		<dd>John Allsopp</dd>
-	<dt>The Map And The Territory</dt>
+	<dt><a href="#EthanMarcotte">The Map And The Territory</a></dt>
 		<dd>Ethan Marcotte</dd>
+	<dt><a href="#JasonGrigsby">Mobile First Responsive Design</a></dt>
+		<dd>Jason Grigsby</dd>
+	<dt><a href="#JohnAllsopp">Well, how did we get here?</a></dt>
+		<dd>John Allsopp</dd>
+	<dt><a href="#SallyBagshaw">The Content Quandary: When the Words Won’t Fit</a></dt>
+		<dd>Sally Bagshaw</dd>
+	<dt><a href="#CraigSharkie">Media queries and JavaScript, a match made in heaven</a></dt>
+		<dd>Craig Sharkie</dd>		
+	<dt><a href="#CathyLill">The Challenge of Responsive Email Design</a></dt>
+		<dd>Cathy Lill</dd>
+	<dt><a href="#AdemCifcioglu">What responsive web design can learn from accessibility best practice</a></dt>
+		<dd>Adem Cifcioglu</dd>
+	<dt><a href="#ColinGourlay">Data-driven interactive content that's at home on any device</a></dt>
+		<dd>Colin Gourlay</dd>
+	<dt><a href="#AndrewFisher">How Well Are You Delivering Your Experience?</a></dt>
+		<dd>Andrew Fisher</dd>
+	<dt><a href="#TBA1">Responsive images, the current state of play</a></dt>
+		<dd>TBA</dd>
+	<dt><a href="DavidLewis">Responsive Navigation Patterns</a></dt>
+		<dd>David Lewis</dd>
 	<dt>On the couch</dt>
 		<dd>Ethan Marcotte, Jason Grigsby and John Allsopp</dd>
-	<dt>Reception</dt>
+	<dt><a href="#venue">Wind down event</a></dt>
 		<dd>Pumphouse Darling Harbour</dd>
 </dl>
 
 
-</section>		
+</section>	
 
-	<h2>Day One, Masterclass</h2>
-	<h3>February 4th, <abbr class="dtstart" title="2014-02-05T09:00:00">9:00am</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2014-02-05T17:00:00">5:00pm</abbr>
-</h3>
-	
-		<p>Day One of Web Directions Respond is a full day masterclass with renowned mobile and Web designer, Brad Frost.</p>
-
-		<section class="vevent session" id="BradFrost"">
-			
-			<figure>
-			<img class="dinkus" alt="Photo of Brad Frost" src=images/speaker-b-frost.jpg>
-			<figcaption>Brad Frost</figcaption>
-			<!-- <figcaption>@brad_frost</figcaption> -->
-			</figure>
-						
-			<section class=description>
-			
-			<h3 class="summary">
-				<span class="name">Brad Frost</span>
-				<span class="title">Bits and Pieces–Working with Atomic Design and Responsive Patterns</span>
-			</h3>
-			
-<p>"We're not designing pages anymore. We're designing systems of components." As with most things Stephen Hay says, he's right. Over the past few years, we've witnessed an explosion of Web-enabled devices, and that explosion has forced the Web community to embrace a more systematic approach to designing interfaces.</p>
-
-<p>This full-day workshop will take a deep dive into the world of responsive web design, how to deconstruct interfaces down to their atomic elements, and how to introduce design systems into your workflow. We'll look at a ton of emerging responsive patterns, new tools and resources to help you design multi-device Web experiences. Sound like fun? We hope so!</p>
-
-<h4>What you'll learn</h4>
-<ul>
-	<li>An overview of the ever-shifting Web landscape</li>
-	<li>The fundamentals of responsive design and the principles of adaptive design</li>
-	<li>The atomic design methodology and implementing atomic design with Pattern Lab</li>
-	<li>The modern design workflow: process, techniques and tools</li>
-	<li>The pros and cons of many emerging responsive design patterns</li>
-</ul>
-
-
-			</section>
-			
-			<section class=bio>
-<h3>About Brad Frost</h3>
-<a href="http://bradfrostweb.com/">Brad Frost</a> is a web designer, speaker, writer, and consultant located in beautiful Pittsburgh, PA. He is the creator of <a href="http://bradfrost.github.com/this-is-responsive/">This Is Responsive</a>, a collection of patterns, resources and news to help people create great responsive web experiences. He also created <a href="http://mobilewebbestpractices.com/">Mobile Web Best Practices</a>, a resource site that lays out considerations for creating great mobile web experiences. He curates <a href="http://wtfmobileweb.com/">WTF Mobile Web</a>, a site that teaches by example what not to do when working with the mobile web. He is passionate about the Web and is constantly <a href="https://twitter.com/brad_frost">tweeting</a>, <a href="http://bradfrostweb.com/blog/">writing</a> and <a href="http://bradfrostweb.com/speaking/">speaking</a> about it.			</section>
-			
-			<aside class=links>
-				<ul>
-					<li><a href=http://bradfrostweb.com/>bradfrostweb.com</a></li>
-					<li><a href=https://twitter.com/brad_frost>@brad_frost</a></li>
-					<li><a href=https://github.com/bradfrost>bradfrost</a></li>
-				</ul>
-			</aside>
+<section id=register>
+		<h1>Pricing</h1>
 		
-			<aside class="time">
-				<abbr class="dtstart" title="2014-02-04T09:00:00">9:00am</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2014-02-04T17:00:00">5:00pm</abbr>
-			</aside>
+<p>Attend either day for $599, or both for just $999. Been to a previous Web Directions event? <a href=mailto:info@webdirections.org>Get in touch for your discount code</a>.</p>
+
+		
+		<section class="registerItem" id="festival">
+		<h2>Festival Pass<span>(Conference &amp; Masterclass)</span></h2>
+		<h3>$999</h3>
+		<h4>February 4th &amp; 5th, Powerhouse Museum</h4>
+		<h5>best value</h5>
+		<p><a href="https://secure.webdirections.org/respond2014/register/billing" class=button>Register</a></p>
+		
 		</section>
 		
+		
+		<section class="registerItem" id="masterclass">
+		<h2>Brad Frost Masterclass</h2>
+		<h3>$599</h3>
+		<h4>February 4th, Powerhouse Museum</h4>
+		<p><a href="https://secure.webdirections.org/respond2014/register/billing" class=button>Register</a></p>
+		</section>
 
+		<section class="registerItem" id="conference">
+		<h2>Respond Conference</h2>
+		<h3>$599</h3>
+		<h4>February 5th, Powerhouse Museum</h4>
+		<p><a href="https://secure.webdirections.org/respond2014/register/billing" class=button>Register</a></p>
 		
-	<h2>Day Two, Conference</h2>
-	<h3>February 5th	<abbr class="dtstart" title="2014-02-06T09:00:00">9:00am</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2014-02-06T17:00:00">5:00pm</abbr>
-</h3>
+		</section>
+</section>
+
+		<h1>Conference Schedule</h1>
 		
-		<p>Day Two is a full day single track conference featuring Ethan Marcotte, Jason Grigsby, John Allsopp and more, covering responsive techniques, challenges and workflows.</p>
+	<!--<h2>Day Two, Conference</h2> -->
+		
+		<p>February 5th is a full day single track conference featuring Ethan Marcotte, Jason Grigsby, John Allsopp and more, covering responsive techniques, challenges and workflows.</p>
 		
 		<section class="vevent session" id="JasonGrigsby">
 			
 			
-		<figure>
-			<img class="dinkus" alt="Photo of Jason Grigsby" src=images/speaker_j-grigsby.jpg>
-			<figcaption>Jason Grigsby</figcaption>
+			<figure>
+				<img class="dinkus" alt="Photo of Jason Grigsby" src=images/speaker_j-grigsby.jpg>
+				<figcaption>Jason Grigsby</figcaption>
 			</figure>
 			
 			<section class=description>
@@ -216,26 +222,22 @@
 						
 			<h3 class="summary">
 				<span class="name">Jason Grigsby</span>
-				<span class="title">HTML, CSS and the client-side app</span>
+				<span class="title">Responsive Mobile First Design</span>
 			</h3>
 			
-				<p>Mobile first and responsive web design aren't simply two great tastes that go great together. They represent much more than that. Mobile first responsive web design is the responsible way to build responsive design. It is the best way to build something that is both responsive from a layout AND a performance perspective.</p>
+				<p>Mobile first and responsive web design aren't simply two great tastes that go well together. They represent much more than that. Mobile first responsive web design is the responsible way to build responsive design. It is the best way to build something that is both responsive from a layout AND a performance perspective.</p>
 
 <p>But if mobile first is the right way to do responsive design, then why are so few people doing it? In this session, we'll dig into why mobile first responsive design matters and the techniques necessary to make it work.</p>
 			</section>
 			
 			<section class=bio>
-			
-			<h3>About Jason Grigsby</h3>
-				
+							
 <p>In 2000, Jason Grigsby got his first mobile phone. He became obsessed with how the world could be a better place if everyone had access to all that information in their pockets. Those mobile dreams hit the hard wall of reality: WAP was crap. So Jason went to work on the web until 2007, when the iPhone made it clear the time was right. He joined forces with the three smartest people he knew and started Cloud Four.</p>
 <p>Since then, he has had the good fortune to work on many fantastic projects, including the Obama iPhone App. A sought‐after speaker and consultant on mobile, Jason is founder and president of Mobile Portland, a local nonprofit dedicated to promoting the mobile community in Portland, Oregon.</section>
 			
 			<aside class=links>
 				<ul>
-					<li><a href=http://garann.com/>garann.com</a></li>
-					<li><a href=http://twitter.com/garannm>@garannm</a></li>
-					<li><a href=https://github.com/Garann>Garann</a></li>
+					<li><a href=http://twitter.com/grigs>@grigs</a></li>
 				</ul>
 			</aside>
 						
@@ -243,123 +245,412 @@
 				<abbr class="dtstart" title="2013-05-03T09:00:00">9:00am</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2013-05-03T10:05:00">10:05am</abbr>
 			</aside>
 		</section>
+				
 		
 		<section class="vevent break">
-			<h3 class="summary"><span class="title">Morning tea: coffee me!</span></h3>
+						<h3 class="summary"><span class="title">Morning tea</span></h3>
 						<section class=description>
-							<p>Freshly baked assorted mini danishes plus Mozilla barista coffee.</p>
+							<p>Treat yourself to pear and blueberry tea cake, mini danish pastries and chocolate and raspberry brownies. You deserve it!</p>
 						</section>
 			<aside class="time">
-				<abbr class="dtstart" title="2013-05-03T10:05:00">10:05am</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2013-05-03T10:35:00">10:35am</abbr>
+				<abbr class="dtstart" title="2014-02-05T10:15:00">10:15am</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2014-02-05T10:45:00">10:45am</abbr>
 			</aside>
 		</section>
 		
+		<section class="vevent session" id="AdemCifcioglu">
+			
+			<figure>
+				<img class="dinkus" alt="Photo of Adem Cifcioglu" src=images/speaker_a-cifcioglu.jpg>
+				<figcaption>Adem Cifcioglu</figcaption>
+			</figure>
+			
+			<h3 class="summary">
+				<span class="name">Adem Cifcioglu</span>
+				<span class="title">what responsive web design can learn from accessibility best practice</span>
+			</h3>
+			
+			<section class=description>
+<p>Like responsive design, accessibility embraces flexibility. In this presentation Adem will discuss how adopting accessible and inclusive design practices can help produce more effective responsive designs.</p>
+			</section>
+			
+			<section class=bio>				
+				<p>Adem is a web accessibility specialist, web standards advocate and developer. He founded Recreate Web, a company providing accessible web design, development and accessibility consulting services, with the aim of helping to make the web accessible to all. To Adem, accessibility means providing universal, barrier-free and equal access to the web, and technology in general, for all users, regardless of ability, disability, browsing device or location.
+</p>
+			</section>
+			
+			<aside class=links>
+				<ul>
+					<li><a href=http://twitter.com/ademcifci>@ademcifci</a></li>
+				</ul>
+			</aside>
+						
+			<aside class="time">
+				<abbr class="dtstart" title="2014-02-05T10:45:00">10:45am</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2014-02-05T11:00:00">11:00am</abbr>
+			</aside>
+		</section>
+		
+		<section class="vevent session" id="ColinGourlay">
+			<figure>
+				<img class="dinkus" alt="Photo of Colin Gourlay" src=images/speaker_c-gourlay.jpg>
+				<figcaption>Colin Gourlay</figcaption>
+			</figure>
+			
+			<h3 class="summary">
+				<span class="name">Colin Gourlay</span>
+				<span class="title">data-driven interactive content that's at home on any device</span>
+			</h3>
+			
+			<section class=description>
+			<p>The focus for designers when it comes to responsive sites has typically been largely on images and text based content. But interactive charts, graphs, and other data-driven interactive content are quickly becoming <i>de rigueur</i> at news sites, and beyond. In this session, Colin Gourlay shares some of his experience developing responsive interactive content for the ABC.</p>
+			</section>
+			
+			<section class=bio>			
+<p>Colin Gourlay is a web developer for who works for ABC News, working on interactive content, most recently for the ABC’s coverage of the 2013 federal election.</p>			</section>
+			
+			<aside class=links>
+				<ul>
+					<li><a href=http://twitter.com/collypops>@collypops</a></li>
+				</ul>
+			</aside>
+						
+			<aside class="time">
+				<abbr class="dtstart" title="2014-02-05T11:05:00">11:05am</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2014-02-05T11:20:00">11:20am</abbr>
+			</aside>
+		</section>
 
+		<section class="vevent session" id="CraigSharkie">
+			
+			<figure>
+				<img class="dinkus" alt="Photo of Craig Sharkie" src=images/speaker_c-sharkie.jpg>
+				<figcaption>Craig Sharkie</figcaption>
+			</figure>
+			
+			<h3 class="summary">
+				<span class="name">Craig Sharkie</span>
+				<span class="title">Media queries and JavaScript, a match made in heaven</span>
+			</h3>
+			
+			<section class=description>
+				<p>We all know Media Queries allow us to target different screen sizes, resolutions and more to help deliver the most responsive site, with the same code base. but did you know there's a DOM feature, <code>matchMedia</code>, that lets us do everything media queries do with CSS, only with JavaScript? Craig Sharkie tells us more.</p>
+			</section>
+			
+			<section class=bio>			
+<p>A degree in Fine Art is a strange entrance to a career in programming, but that's where Craig Sharkie started. A right-brain approach to code and problem solving has seen him plying his craft for many of the big names of the web: AOL, Microsoft, Yahoo!, Ziff-Davis, Atlassian and mi9. Craig is also the founder and lead wrangler of Sydney's JavaScript meet-up, SydJS.</p>			</section>
+			<aside class=links>
+				<ul>
+					<li><a href=http://twitter.com/twalve>@twalve</a></li>
+				</ul>
+			</aside>			
+			
+			<aside class="time">
+				<abbr class="dtstart" title="2014-02-05T11:25:00">11:25am</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2014-02-05T11:40:00">11:40pm</abbr>
+			</aside>
+		</section>
+			
+		<section class="vevent session" id="TBA1">
+
+			<figure>
+				<img class="dinkus" alt="Photo of speaker TBA" src=images/speaker_tba.jpg>
+				<figcaption>TBA</figcaption>
+			</figure>
+			
+			<h3 class="summary">
+				<span class="name">TBA</span>
+				<span class="title">Responsive Images, the state of the art</span>
+			</h3>
+			
+			<section class=description>
+<p>Images have long been one of the trickiest aspects of Responsive Web Design to get to grips with. With the wide range of screen dimensions and pixel densities, coupled with the rise of Web use over mobile networks, how can you deliver the best possible graphics, with the lowest possible network impact? Hear about the current state of the art, and emerging standards to take the pain out of Responsive Images.</p>
+			</section>
+			
+			<section class=bio>				
+<p>TBA</p>			</section>
+			
+			<aside class=links>
+				<ul>
+					<li><a href=http://twitter.com/>tba</a></li>
+				</ul>
+			</aside>
+			
+			<aside class="time">
+				<abbr class="dtstart" title="2014-02-05T11:45:00">11:45am</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2014-02-05T12:00:00">12:00</abbr>
+			</aside>
+		</section>
+
+		<section class="vevent break" id="FAQ1">
+						<h3 class="summary"><span class="title">Q&amp;A</span></h3>
+						<section class=description>
+							<p>Time for questions from the floor for this morning's speakers, so get on up to the mic and ask that burning question.</p>
+						</section>
+			<aside class="time">
+				<abbr class="dtstart" title="2014-02-05T12:00:00">12:00</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2014-02-05T12:15:00">12:15pm</abbr>
+			</aside>
+		</section>
 		
 		<section class="vevent break">
-			<h3 class="summary"><span class="title">Closing night party</span></h3>
+						<h3 class="summary"><span class="title">Lunch</span></h3>
+						<section class=description>
+							<p>Head to the buffet for Indian vegetable curry with chick peas, potato and cauliflower, along with butter chicken and basmati rice; marinated and slow cooked pork sliders; roasted pumpkin, rocket, beetroot and goat's curd salad; cauliflower salad with peas and turmeric dressing; assorted lavoche wraps and finger sandwiches and then finishing with a selection of fresh seasonal fruits and Australian and European cheeses.</p>
+						</section>
+			<aside class="time">
+				<abbr class="dtstart" title="2014-02-05T12:15:00">12:15pm</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2014-02-05T13:15:00">1:15pm</abbr>
+			</aside>
+		</section>
+		
+		<section class="vevent session" id="SallyBagshaw">
+
+			<figure>
+				<img class="dinkus" alt="Photo of Sally Bagshaw" src=images/speaker_s-bagshaw.jpg>
+				<figcaption>Sally Bagshaw</figcaption>
+			</figure>
+			
+			<h3 class="summary">
+				<span class="name">Sally Bagshaw</span>
+				<span class="title">The Content Quandary: When the Words Won’t Fit</span>
+			</h3>
+			
 			<section class=description>
-				<p>Time to let your hair down after an intense couple of days at our legendary closing night party. This year we&rsquo;ll be just 5 minutes away at The Pumphouse (17 Little Pier St, Darling Harbour).</p>
+<p>“Let’s migrate our existing content, it will be fine for mobile.” It’s the line that strikes fear into the heart of any content strategist. And it happens all the time: your client expects their brand spanking new responsive site to make their crap content look good. Spending time reviewing, restructuring and rethinking what content should be on their site all sounds too hard. So what do you do? Where should you focus your energy so that the project is still a success? Sally will share three pieces of advice for the next time you are faced with this situation.	</p>	
+	</section>
+			
+			<section class=bio><p>Sally is a Brisbane-based content strategist who likes big, messy web redevelopment projects. A word nerd at heart, she isn’t afraid of spreadsheets or metadata but hates the word migration. She often finds herself giving pep-talks to clients that they will have their content ready on time. Sally has a special interest in the author experience, and how writing for the web is evolving with technology, mobile and the rise of structure content.</p>			</section>
+			
+			<aside class=links>
+				<ul>
+					<li><a href=https://twitter.com/@snappysentences>@snappysentences</a></li>
+				</ul>
+			</aside>
+			
+			<aside class="time">
+				<abbr class="dtstart" title="2014-02-05T13:15:00">1:15pm</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2014-02-05T13:30:00">1:30pm</abbr>
+			</aside>
+		</section>
+
+		<section class="vevent session" id="AndrewFisher">
+			<figure>
+				<img class="dinkus" alt="Photo of Andrew Fisher" src=images/speaker_a-fisher.jpg>
+				<figcaption>Andrew Fisher</figcaption>
+			</figure>
+			
+			<h3 class="summary">
+				<span class="name">Andrew Fisher</span>
+				<span class="title">How Well Are You Delivering Your Experience?</span>
+			</h3>
+			
+			<section class=description>
+<p>The web has always had fragmentation, though not on the scale we're seeing now with new devices - and that's before we consider hybrid-touch laptops, microscreen smart watches, gesture interfaces or displays the size of a wall. Testing all the user permutations of your application is becoming almost impossible, so how do you go about working out whether you're delivering a good experience or not?</p>
+
+<p>In this session, we'll look at the use of responsive design oriented analytics coupled with a few statistical methods that will help determine how well you're delivering your experiences and highlighting the areas you need to focus on next in order to maintain a decent level of coverage.</p>			</section>
+			
+			<section class=bio>			
+			<p>Andrew Fisher plays at the intersection of the web, mobile tech, ubicomp and data.He does some real work too and has been involved with organisations globally since the dawn of the web creating digital solutions for brands including Nintendo, peoplesound, Sony, Cotton On, the Melbourne Cup and Optus. Andrew is the CTO for JBA, a data agency in Melbourne, Australia.</p>
+			</section>
+			
+			<aside class=links>
+				<ul>
+					<li><a href=http://twitter.com/ajfisher>@ajfisher</a></li>
+				</ul>
+			</aside>
+						
+			<aside class="time">
+				<abbr class="dtstart" title="2014-02-05T13:35:00">1:35pm</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2014-02-05T13:50:00">1:50pm</abbr>
+			</aside>
+		</section>
+			
+		<section class="vevent session" id="CathyLill">
+			<figure>
+				<img class="dinkus" alt="Photo of Cathy Lill" src=images/speaker_c-lill.jpg>
+				<figcaption>Cathy Lill</figcaption>
+			</figure>
+			
+			<h3 class="summary">
+				<span class="name">Cathy Lill</span>
+				<span class="title">Send beautiful - responsive! - emails</span>
+			</h3>
+			
+			<section class=description>
+<p>Responsive design and modern CSS techniques have rapidly transformed the web from the 960 pixel wide  place it was only a few years ago, bringing beautiful, usable web experiences to our smartphones, tablets, phablets, i-things and other devices of all shapes and sizes. With more and more of our customers carrying their email around in their pocket we need to provide an equally beautiful experience for email on mobile devices. This talk will cover responsive techniques you can apply to your HTML emails that overcome some of the challenges of email client rendering engines, as well as some tips for designing your emails to work well with these techniques.</p>			</section>
+			
+			<section class=bio>				
+<p>Cathy has been building websites for fun and (mostly) profit since the days when Netscape was a thing. In that time she has worked on big websites at News Digital and Yahoo!7, little websites for rock bands of questionable taste and many other things in between. She is currently Senior Javascript Developer at Campaign Monitor, helping to make it easier than ever to send beautiful emails.</p>
+			</section>
+			
+			<aside class=links>
+				<ul>
+					<li><a href=http://twitter.com/tonymilne>@cathyblabla</a></li>
+				</ul>
+			</aside>
+			
+			<aside class="time">
+				<abbr class="dtstart" title="2014-02-05T13:55:00">1:55pm</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2014-02-05T14:10:00">2:10pm</abbr>
+			</aside>
+		</section>
+		
+		<section class="vevent session" id="David Lewis">
+			
+			<figure>
+				<img class="dinkus" alt="Photo of David Lewis" src=images/speaker_d-lewis.jpg>
+				<figcaption>David Lewis</figcaption>
+			</figure>
+			
+			<h3 class="summary">
+				<span class="name">David Lewis</span>
+				<span class="title">Responsive Navigation Patterns</span>
+			</h3>
+			
+			<section class=description>
+			<p>We as designers, and our users have long since become comfortable with how to navigate most desktop websites. But what should happen to your sidebar, or header navigation when the screen shrinks? In this session we'll hear about the latest Responsive navigation patterns, help make sites as easy to navigate on a smart watch as they are on 4D TVs (ok, maybe on phones, tablets as well as desktops).</p>
+	
+			</section>
+			
+			<section class=bio>				
+<p>David is driven by the need to understand and innovate how things work in the ever changing world of web development, and has been trying to make things look good on computers since tinkering with a ZX Spectrum in his Birmingham bedroom way back in the 1980s.</p>
+
+<p>For the last 15 years he has worked for various companies in the UK and Australia, from small agencies to big media. He now works as a Senior Front-end Developer for Bigcommerce and is the co-founder of SydCSS. He has also been known to release mobile games that hark back to the 80s era.</p>			</section>
+			
+			<aside class=links>
+				<ul>
+					<li><a href=http://twitter.com/dp_lewis>@dp_lewis</a></li>
+				</ul>
+			</aside>
+
+			<aside class="time">
+				<abbr class="dtstart" title="2014-02-05T14:15:00">2:15pm</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2014-02-05T14:30:00">2:30pm</abbr>
+			</aside>
+		</section>
+
+		<section class="vevent break" id="FAQ2">
+						<h3 class="summary"><span class="title">Q&amp;A</span></h3>
+						<section class=description>
+							<p>Time once again for questions from the floor, this time for this afternoon's speakers.</p>
+						</section>
+			<aside class="time">
+				<abbr class="dtstart" title="2014-02-05T14:15:00">14:15</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2014-02-05T12:30:00">12:30pm</abbr>
+			</aside>
+		</section>
+		
+		<section class="vevent break">
+			<h3 class="summary"><span class="title">Afternoon tea</span></h3>
+						<section class=description>
+							<p>Give yourself an afternoon pickup with mini fruit tartlets, orange and poppy seed slice and european style cookies</p>
+						</section>			
+			
+			<aside class="time">
+				<abbr class="dtstart" title="2014-02-05T14:45:00">2:45pm</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2014-02-05T15:15:00">3:15pm</abbr>
+			</aside>
+		</section>
+		
+		<section class="vevent session" id="JohnAllsopp">
+
+			<figure>
+				<img class="dinkus" alt="Photo of John Allsopp" src=images/speaker_j-allsopp.jpg>
+				<figcaption>John Allsopp</figcaption>
+			</figure>
+
+			<h3 class="summary">
+				<span class="name">John Allsopp</span>
+				<span class="title">Well, how did we get here?</span>
+			</h3>
+
+			<section class=description>
+				<p>Many of us were not working on the Web when the ideas that underpin Responsive Web Design were born. John was. Indeed, his article from the year 2000, "A Dao of Web Design", a quote from which  Ethan Marcotte begins his rightly famous article outlining (and naming) RWD called for designers to see the Web as new, more fluid medium, free from many of the constraints of the print world. In this presentation John looks back at the Web of the late 1990s, and asks what can we learn from those days, today.</p>
+			</section>
+
+			<section class=bio>	
+			<p>With a background in computer science and mathematics, and a great deal of good fortune, John Allsopp’s life collided with the web in the early 1990s.</p>
+
+			<p>For nearly 20 years he has developed software for web developers, built web sites and applications, written books like Developing with Web Standards and the first ever book on Microformats, and written countless articles and tutorials for print and online publications.</p>
+
+			<p>In 2000, he wrote “A Dao of Web Design”, which over a decade later continues to be widely cited as the theoretical foundation for Responsive Web Design.</p>
+			</section>
+
+			<aside class=links>
+				<ul>
+					<li><a href=http://twitter.com/johnallopp>@johnallsopp</a></li>
+				</ul>
+			</aside>
+
+			<aside class="time">
+				<abbr class="dtstart" title="2014-02-05T15:15:00">3:15pm</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2014-02-05T15:35:00">3:35pm</abbr>
+			</aside>
+		</section>
+		
+		<section class="vevent session" id="EthanMarcotte">
+
+			<figure>
+				<img class="dinkus" alt="Photo of Ethan Marcotte" src=images/speaker_e-marcotte.jpg>
+				<figcaption>Ethan Marcotte</figcaption>
+			</figure>
+
+			<h3 class="summary">
+				<span class="name">Ethan Marcotte</span>
+				<span class="title">The Map And The Territory</span>
+			</h3>
+
+			<section class=description>
+<p>When we create for the web, we participate in a kind of public art. We code, we design, we build for an audience, shaping digital experiences that provide a service, or that create joy, or that simply connect readers with words written half a world away. But in this session we’ll revisit what we’ve learned about responsive design, and ensure our content, not just our design, is readily accessible to them wherever and whenever they are. In doing so, we’ll look at some ways in which our audience reshapes the way we think about our medium, and see where they might be leading us—and the web—next.</p>			</section>
+
+			<section class=bio><p>Ethan Marcotte is a designer/developer who is passionate about beautiful design, elegant code, and the intersection of the two. He cofounded Editorially, and over the years his clientele has included People Magazine, New York Magazine, the Sundance Film Festival, and The Boston Globe. Ethan coined the term “responsive web design” to describe a new way of designing for the ever-changing web and, if given the chance, will natter on excitedly about it—he even went so far as to write a book on the topic. He lives in Cambridge, Massachusetts, and would like to be an unstoppable robot ninja when he grows up.</p>
+<p>photo: © Marc Thiele</p>			</section>
+
+			<aside class=links>
+				<ul>
+					<li><a href=http://twitter.com/beep>@beep</a></li>
+				</ul>
+			</aside>
+			
+			<aside class="time">
+				<abbr class="dtstart" title="2014-02-05T15:40:00">3:40pm</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2014-02-05T16:25:00">4:25pm</abbr>
+			</aside>
+		</section>
+
+		<section class="vevent break" id="TheCouch">
+						<h3 class="summary"><span class="title">Q&amp;A</span></h3>
+						<section class=description>
+							<p>Ethan, Jason and John field your questions, and talk all things responsive to close the day.</p>
+						</section>
+			<aside class="time">
+				<abbr class="dtstart" title="2014-02-05T16:25:00">4:25pm</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2014-02-05T16:55:00">4:55pm</abbr>
+			</aside>
+		</section>
+		
+		
+		<section class="vevent break">
+			<h3 class="summary"><span class="title">Wind Down</span></h3>
+			<section class=description>
+				<p>After we wrap up on Wednesday afternoon, pop round the corner to The Pumphouse (Darling Harbour) for a drink and a chance to share some of your thoughts on what you&rsquo;ve seen today with other conference attendees, and speakers.</p>
 			</section>
 			<aside class="time">
-				<abbr class="dtstart" title="2013-05-03T17:30:00">5:45pm</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2013-05-03T11:59:00">late</abbr>
+				<abbr class="dtstart" title="2014-02-05T17:30:00">5:45pm</abbr><span class="ndash">&ndash;</span><abbr class="dtend" title="2014-02-05T19:30:00">Whenever (though it is a school night)</abbr>
 			</aside>
-		</section>		
-			
+		</section>
 	</section>
 		
 	<section id=venue>
 		<h1>Venue</h1>
 		<section class="venue-details">		
-				<h2>Conference Venue <img src=http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|ffffff alt="Conference venue marker for the map below"></h2>
+				<h2><span>Conference Venue</span> <img src=http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|ffffff alt="Conference venue marker for the map below"></h2>
 				<p>PowerHouse Museum, <br>Harris St, <br>Ultimo</p>
 		</section>
 
 		<section class="venue-details">		
-		<h2>Reception <img src=http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|ab8080 alt="Opening night party venue marker for the map below"></h2>
+		<h2><span>Reception</span> <img src=http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|ab8080 alt="Opening night party venue marker for the map below"></h2>
 		<p>Pumphouse, <br>17 Little Pier St, <br>Darling Harbour</p>
 		</section>
 		<section id=venue-map></section>
 
 		<section class="venue-details">		
 
-		<h2>Accommodation</h2>
-		<p>Traveling from out of town on a budget? We&rsquo;ve pulled together a bunch of cheap and cheerful (as well as slightly more extravagant) options for accommodation and <a href="https://maps.google.com.au/maps/ms?msid=207650445216355917421.0004ba25c0c740b782d25&amp;msa=0&amp;ll=-37.81309,144.963763&amp;spn=0.01585,0.02871">put them on a map</a> for you. Check out <a href="http://www.wotif.com/hotels/landmarks/australia/powerhouse-museum-hotels.html?destinations=&searchTerms=Powerhouse+Museum%2C+Sydney%27s+largest+public+museum.+Its+exhibitions+span+many+areas+including+science%2C+industry%2C+design%2C+technology%2C+and+more.%2C+Ultimo&hotel=&country=&region=&destination=&adults=2&children=0&refine=Search&accommodationTypeMatch=&roomTypeCategoryMatch=&starRatingMatch=&maximumPrice=&selectedSuggestionId=&startDay=2014-02-04&formSearch=true&previousSearchTerms=&page=8&viewType=all" title="Wotif.com:  hotels, accommodation, motels, serviced apartments, B&amp;B - Online hotel bookings with instant confirmation">Wotif</a> and <a href="https://www.airbnb.com.au/s?location=ultimo&checkin=&checkout=&guests=1">Airbnb</a> as well. You can almost always find something affordable only a short walk from the venues. But hey, if you or you boss are happy to stump up for the Hilton, don&rsquo;t let us stop you!</p>
+		<h2><span>Accommodation</span></h2>
+		<p>Traveling from out of town on a budget? We&rsquo;ve pulled together a bunch of cheap and cheerful (as well as slightly more extravagant) options for accommodation and <a href="https://maps.google.com.au/maps/ms?msid=211357686718093723450.0004bf0369f8be3a3c1a0&msa=0">put them on a map</a> for you. Check out <a href="http://www.wotif.com/hotels/landmarks/australia/powerhouse-museum-hotels.html?destinations=&searchTerms=Powerhouse+Museum%2C+Sydney%27s+largest+public+museum.+Its+exhibitions+span+many+areas+including+science%2C+industry%2C+design%2C+technology%2C+and+more.%2C+Ultimo&hotel=&country=&region=&destination=&adults=2&children=0&refine=Search&accommodationTypeMatch=&roomTypeCategoryMatch=&starRatingMatch=&maximumPrice=&selectedSuggestionId=&startDay=2014-02-04&formSearch=true&previousSearchTerms=&page=8&viewType=all" title="Wotif.com:  hotels, accommodation, motels, serviced apartments, B&amp;B - Online hotel bookings with instant confirmation">Wotif</a> and <a href="https://www.airbnb.com.au/s?location=ultimo&checkin=&checkout=&guests=1">Airbnb</a> as well. You can almost always find something affordable only a short walk from the venues. But hey, if you or you boss are happy to stump up for the Hilton, don&rsquo;t let us stop you!</p>
 		</section>
 		
 		<section class="venue-details">		
-		<h2>Eating, drinking and socialising</h2>
-		<p>Attending a conference like Web Directions Respond is a whole lot more than what happens from 9 to 5, and Sydney has countless great places to grab a drink or a meal at any hour of the night or day. Impress your new friends by taking them to one of the <a href="https://maps.google.com.au/maps/ms?msid=211357686718093723450.0004bf0369f8be3a3c1a0&msa=0&ll=-33.876437,151.205134&spn=0.032922,0.052099&dg=feature">awesome places on our map</a>. And Sydney-siders, don&rsquo;t hold back with <a href=mailto:info@webdirections.org>sharing any awesome hidden gems</a> we don&rsquo;t know about!</p>
+		<h2><span>Eating, drinking and socialising</span></h2>
+		<p>Attending a conference like Web Directions Respond is a whole lot more than what happens from 9 to 5, and Sydney has countless great places to grab a drink or a meal at any hour of the night or day. Impress your new friends by taking them to one of the <a href="https://maps.google.com.au/maps/ms?msid=211357686718093723450.0004bf0369f8be3a3c1a0&msa=0">awesome places on our map</a>. And Sydney-siders, don&rsquo;t hold back with <a href=mailto:info@webdirections.org>sharing any awesome hidden gems</a> we don&rsquo;t know about!</p>
 		</section>
 		
 	</section>
-		
-	<section id=register>
-		<h1>Pricing</h1>
-		<p>Been to a previous Web Directions event? <a href=mailto:info@webdirections.org>Get in touch for your discount code before you register</a>.</p>
-		<p>Need a bit of help convincing your manager that you need to attend Web Directions Code? Print out our handy PDF, <a href="http://www.webdirections.org/downloads/why-web-directions-code.pdf">Why should you send your developers to Web Directions Respond?</a></p>
-		
-				<table>
-			<thead>
-				<tr>
-					<th>Ticket</th>
-					<th colspan="2">Price</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Brad Frost Masterclass</td>
-					<td>$599</td>
-					<td><a href="" class=button>Register</button></td>
-				</tr>
-				<tr>
-					<td>Conference</td>
-					<td>$599</td>
-					<td><a href="" class=button>Register</button></td>
-				</tr>
-
-				<tr class="recommended">
-					<td>Masterclass + Conference (save 20%)</td>
-					<td>$999</td>
-					<td><a href="" class=button>Register</button></td>
-
-			</tbody>
-		</table>
-		
-		<!-- 
-		<p>OR</p>
-
-		
-		<section class="priceOption recommended">
-		<h3>Masterclass &amp; Conference</h3>
-		<h4>$999</h4>
-		<p>All day workshop with renowned mobile and Web designer, Brad Frost</p>
-		<p>+</p>
-		<p>One day, single track conference with Ethan Marcotte, John Allsopp and More</p>
-		<p><a class="button">Register Now</a></p>
-
-		</section>
-
-				
-		<section class="priceOption">
-		<h3>Day 1 Masterclass</h3>
-		<h4>$599</h4>
-		<p>All day workshop with renowned mobile and Web designer, Brad Frost</p>
-		<p><a class="button">Register Now</a></p>
-		</section>
-		
-		<section class="priceOption">
-		<h3>Day 2 Conference</h3>
-		<h4>$599</h4>
-		<p>One day, single track conference with Ethan Marcotte, John Allsopp and More</p>
-		<p><a class="button">Register Now</a></p>
-
-		</section>
-		
-		-->
-		
-		<p>Payment can be made online by Mastercard/Visa, or by purchase order, invoice and bank transfer.</p>			
-		
 				
 		<section id="fineprint">
 			<h2>Fine Print</h2>
@@ -383,28 +674,27 @@
 			</ul>
 			</section>
 		</section> <!-- fineprint -->
-	</section>
 	
 		<section id=sponsors>
 		<h1>Sponsors</h1>
 		
 		<p>Web Directions Respond will be even more awesome thanks to the support of our sponsors. If you're keen to engage an audience of leading mobile and Web designers and developers, <a href="http://webdirections.org/contact" class="plain">drop us a line</a>.</p>
 
-<!--		<ul>
-			<li><a href="http://www.silverstripe.com/"><h4>Significant sponsor</h4><img src="http://static.webdirections.org/webdirections/images/sponsor-silverstripe.png" alt="Silverstripe"></a></li>
-			<li><a href="http://kendoui.com/"><h4>Sponsor</h4><img src="http://static.webdirections.org/webdirections/images/sponsor-kendo.png" alt="Kendo UI"></a></li>
-			<li><a href="http://99designs.com.au/"><h4>Sponsor</h4><img src="http://static.webdirections.org/webdirections/images/sponsor-99designs.png" alt="99designs"></a></li>
+<ul>
+			<li><a href="http://responsivedesignweekly.com"><h4>Media Partner</h4><img src="http://static.webdirections.org/webdirections/images/sponsor-silverstripe.png" alt="Silverstripe"></a></li>
+			<li><a href="http://kendoui.com/"><h4>Community Partner</h4><img src="http://static.webdirections.org/webdirections/images/sponsor-kendo.png" alt="Kendo UI"></a></li>
+			<!-- <li><a href="http://99designs.com.au/"><h4>Sponsor</h4><img src="http://static.webdirections.org/webdirections/images/sponsor-99designs.png" alt="99designs"></a></li>
 			<li><a href="http://www.wakanda.org/"><h4>Exhibitor</h4><img src="http://static.webdirections.org/webdirections/images/sponsor-wakanda.png" alt="Wakanda"></a></li>
 			<li><a href="http://dius.com.au/"><h4>Lanyard sponsor</h4><img src="http://static.webdirections.org/webdirections/images/sponsor-dius.png" alt="Wakanda"></a></li>
-			<li><a href="http://www.mozilla.org/"><h4>Barista coffee sponsor</h4><img src="http://static.webdirections.org/webdirections/images/sponsor-mozilla.png" alt="Mozilla"></a></li>
-		</ul> -->
+			<li><a href="http://www.mozilla.org/"><h4>Barista coffee sponsor</h4><img src="http://static.webdirections.org/webdirections/images/sponsor-mozilla.png" alt="Mozilla"></a></li> -->
+		</ul>
 		
 	</section>
 
 			
 	<footer>
-		<section id=contact>
-			<h3>Contact</h3>
+		<section id=contact class="footer-details">
+			<h3>Contact</h3>	
 			
 			<ul>
 				<li>Email: <a href=mailto:info@webdirections.org>info@webdirections.org</a></li>
@@ -413,7 +703,7 @@
 			</ul>
 		</section>
 		
-		<section id=links>
+		<section id=links class="footer-details">
 			<h3>More from Web Directions</h3>
 			
 			<ul>
@@ -430,29 +720,29 @@
 	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 	
 		<script>//window.addEventListener("load", init, false)
-	
 	init()
 	
 	function init() {
 		var elementToStick = document.querySelector("#respond");
 		sticker.init(elementToStick, "all and (min-width:601px)")
 	}
-	
 	</script>
 
-	
+<script src="javascript/smooth-scroll.js"></script>
+
+<!-- <script src=javascript/swapper.js></script>
+<script>swapper.rotateImages() //defined in swapper.js</script> -->
 <script src=javascript/maps.js></script>
-	<script type="text/javascript">
-		var _gaq = _gaq || [];
-		var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
-		_gaq.push(['_require', 'inpage_linkid', pluginUrl]);
-		_gaq.push(['_setAccount', 'UA-6049317-15']);
-		_gaq.push(['_trackPageview']);
-		(function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-	</script> 
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-6049317-16', 'webdirections.org');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>

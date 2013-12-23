@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Untitled</title>
+
+<style>
+
+#schedule #feb5 img, #schedule #feb5 figcaption  {
+-webkit-animation: crossfade 24s infinite ;
+animation: crossfade 24s infinite;
+opacity: 0
+}
+
+#schedule #feb5 figure:nth-of-type(2) img, #schedule #feb5 figure:nth-of-type(2) figcaption {
+-webkit-animation-delay: 8s;
+animation-delay: 8s
+}
+
+#schedule #feb5 figure:nth-of-type(1) img, #schedule #feb5 figure:nth-of-type(1) figcaption {
+-webkit-animation-delay: 16s;
+animation-delay: 16s
+}
+
+
+@-webkit-keyframes crossfade {
+  0% {
+    opacity:0;
+  }
+  16% {
+    opacity:1;
+  }
+  33% {
+    opacity:1;
+  }
+
+  50% {
+	opacity: 0
+  }
+
+  100% {
+    opacity:0;
+  }
+}
+</style>
+
+</head>
+<body>
+<div id="schedule">
+<div id="feb5">
+
+<figure>
+			<img class="dinkus" alt="Photo of The speakers" src=..images/speaker_j-allsopp.jpg>
+			<figcaption>John Allsopp</figcaption>
+			</figure>
+
+			<figure>
+			<img class="dinkus" alt="Photo of The speakers" src=..images/speaker_j-grigsby.jpg>
+			<figcaption>Jason Grigsby</figcaption>
+			</figure>
+			
+			<figure>
+			<img class="dinkus" alt="Photo of The speakers" src=..images/speaker_e-marcotte.jpg>
+			<figcaption>Ethan Marcotte</figcaption>
+			</figure>
+
+</div>
+</div>
+
+</body>
+</html>

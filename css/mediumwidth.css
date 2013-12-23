@@ -1,0 +1,62 @@
+ #schedule, #workshops, #venue h1, #venue h2, #venue p, #sponsors, #proposition, #howitworks, #about, #spiel, #fineprint {width: 90%;
+margin: 0 auto;
+}
+
+
+#respond h1 {
+font-size: 8em}
+
+#respond.stickerStuck h1 {
+font-size: 3em;
+padding-top: .1em
+}
+
+#respond h1 span {
+position: relative;
+}
+
+#respond.stickerStuck h1 span {
+/*left: -.6em;*/
+}
+
+nav ol {
+width:100%;
+margin: 0 auto}
+
+header {
+width: 100%;
+font-size: .8em}
+
+#logo {padding-right: 5%}
+
+.dates {
+	left: 5%
+}
+
+#spiel {font-size: 2em;
+margin-bottom: 0em} 
+
+#schedule figure {
+width: 130px;
+margin-top: 1em;
+position: relative; /*create positioning context*/ 
+padding: 0;
+height: 130px}
+
+#schedule figcaption {
+	font-size: 1.1em;
+bottom: 5%;
+
+} 
+
+.day-overview .summary {
+	font-size: .9em;
+line-height: 1.2em
+}
+
+.session .description, .session .bio {
+width: 100%
+}
+
+
+#venue-map {margin-bottom: 2em}

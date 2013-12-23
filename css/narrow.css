@@ -1,0 +1,710 @@
+/*forwindowwidths < 600 px*/
+
+/* Eric Meyer's Reset CSS v2.0 */
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {border:0;
+font-size:100%;
+font:inherit;
+vertical-align:baseline;
+margin:0;
+padding:0 }
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display:block }
+
+body {line-height:1 }
+
+ol,ul {list-style:none }
+
+blockquote,q {quotes:none }
+
+blockquote:before,blockquote:after,q:before,q:after {content:none }
+
+table {border-collapse:collapse;
+border-spacing:0 }
+
+body {background: #fff;
+font: 100%/1.5em "Helvetica Neue", Helvetica, Arial,  san-serif ;
+font-weight: 200;
+color: #222; }
+
+a {text-decoration: none;
+color: #ce0d14;
+padding-bottom: 1px; }
+
+a:hover, a:focus {border-bottom: 2px solid #ce0d14; }
+
+sup {vertical-align: super;
+font-size: .625em;
+line-height: 2.4em; }
+
+em, strong {font-weight: bold; }
+
+header {position: relative;
+top: 0;
+background: transparent;
+width: 100%;
+z-index: 501;
+text-align: center;
+text-overflow: ellipsis-word; 
+display: block;}
+
+header {text-align: left; }
+
+#logo {
+height: 53px;
+margin: 0 auto;
+display: block;
+position: relative;
+top: 20px; 
+width: 95%;
+padding: 0}
+
+/*.dates {position: absolute;
+top: 12px;
+left: 0;
+width: 30%;
+text-align: right;
+margin: 0 2% 0 68%;
+color: #000;
+font-size: .7em; 
+display: block}*/
+
+/*#logo {
+height: 53px;
+margin: 0 auto;
+display: block;
+position: relative;
+width: auto;
+padding: 0;
+float: left;
+z-index: 1}*/
+
+
+
+#logo:hover, #logo:focus {border-bottom: none; }
+
+#logo img {float: left;
+margin-right: .2em;
+width: auto;
+height: 45px; }
+
+
+#logo:hover:after, #logo:focus:after {background: none; }
+
+#logo .logotype {font-family: futura-pt, futura, san-serif;
+word-spacing: -.2em;
+color: #000001; 
+display: none;
+position: relative;
+top: -40px}
+
+nav {width: 100%;
+padding-left: 0;
+margin: 0;
+text-align: right;
+background-color: #ffffff; 
+font-family: futura-pt, futura, san-serif;
+text-transform: lowercase;
+font-style: italic; }
+
+nav ol {
+width:100%;
+margin: 0 auto;
+font-size: .9em;
+color: #fff;
+background-color: #000001; }
+
+
+/*.dates {position: static;
+top: 0;
+left: 0;
+width: 30%;
+text-align: right;
+margin: 0 0 0 0%;
+color: #000;
+font-size: .7em; 
+display: block;
+float: right;
+display: none}*/
+
+
+.dates {
+display: block;
+position: absolute;
+top: 0;
+text-align: right;
+width: 100%;
+font-size: .8em;
+font-weight: 200;
+color: #fff }
+
+nav li {font-size: 1.125em;
+line-height: 1.333em;
+display: inline-block;
+margin-right: 0;
+width: 24%;
+text-align: center; }
+
+nav ol li:last-of-type {
+/*display: block;
+width: 80%;
+margin: -.5em auto;*/
+display: none
+}
+
+/*nav ol li:last-of-type a {
+display: block;
+width: 100%;
+text-align: center; }*/
+
+nav a {color: #fff; }
+
+nav .active {border-bottom: 2px solid #ce0d14; }
+
+nav .active:focus, nav .active:hover {border-bottom-color: #bbb; }
+
+nav a[href='#register'] { }
+
+.ie7 {position: absolute;
+top: 0;
+right: 0;
+width: 28%;
+padding: .75em 1%;
+background: #fff;
+border-left: 2px solid #ce0d14;
+border-bottom: 2px solid #ce0d14; }
+
+/* Generic content styles */
+
+#schedule, #workshops, #venue h1, #venue h2, #venue p, #sponsors, #proposition, #howitworks, #about, #respond, #spiel {width: 95%;
+margin-left: auto;
+margin-right: auto; }
+
+#schedule, #workshops, #venue, #sponsors, #register, #footer, #howitworks, #about {padding-top: 1em;
+position: relative;
+/*top: -100px;
+padding-top: 100px */}
+
+#schedule, #workshops, #venue, #sponsors, #about, #howitworks {overflow: auto; }
+
+p+p {margin-top: .75em; }
+
+h1 {font-size: 1.3em;
+line-height: 1.125em;
+clear: both;
+margin-bottom: .281em;
+margin-top: 1em;
+font-family: futura-pt, futura, san-serif;
+font-weight: 700;
+color: #fff;
+background-color: #000;
+text-transform: uppercase}
+
+h2 {font-style: italic;
+color: #ce0d14;
+margin-top: 0;
+margin-bottom: 0;
+font-family: futura-pt, futura, san-serif;
+color: #ffffff;
+background-color: #ce0d14; 
+font-weight: 600;
+font-size: 1em;
+padding:  0 .2em .2em .2em ;
+display: block;
+text-transform: uppercase;
+width: auto}
+
+h3, h4, .dates, footer #copyright, .button, #register th, .sessiontitles {font-family: futura-pt, futura, sans-serif;
+text-transform: uppercase;
+letter-spacing: .1em; }
+
+
+h1, h2, h3, h4 {
+letter-spacing: -.05em}
+
+p {line-height: 1.3}
+
+#spiel {
+font-size: 1em;
+font-weight: 300;
+line-height: 1.5;
+margin: .5em auto;
+padding: 0}
+
+#spiel p:first-of-type {
+	font-size: 1em
+}
+
+#spiel p {
+	display: block;
+	font-size: .9em
+
+}
+
+
+
+#spiel .button {
+	display: block;
+	width: 90%;
+text-align: center; }
+
+
+#respond {
+position: relative;
+/*position: relative;*/
+/*top: -53px;*/
+width: 100%;
+margin-top: -53px
+}
+
+#respond h1 {
+text-align: left;
+font-size: 3em;
+font-weight: 900;
+text-transform: uppercase;
+font-style: italic; 
+font-family: futura-pt, futura, san-serif;
+color: #fff;
+background-color: #ce0d14; 
+width: 80%;
+padding: 20px 0 0 20%;
+height: auto;
+margin: 0 auto 0 auto;
+line-height: .95;
+min-height: 60px;
+text-rendering: optimizeLegibility;
+}
+
+#respond h1 span#char2 {padding-right: .02em}
+
+#respond h1 span#char4 {padding-right: .04em}
+ 
+
+/* Schedule, Workshops */
+
+#schedule h2, #workshops h2, #proposition h2 {clear: both;
+margin-bottom: 0;
+font-size: 1.2em;
+}
+
+#schedule .vevent, #workshops .vevent {position: relative;
+clear: both;
+border-top: 1px solid #ddd; }
+
+#schedule .session, #workshops .session {border-top: 1px solid #ccc;
+margin-top: 1.4em; }
+
+#schedule h3, #workshops h3 {}
+
+#schedule .name, #workshops .name {display: inline-block;
+padding: 0 3%;
+margin: -.3em 0 0 -.5em;
+font-style: italic;
+/*text-transform: none;*/
+letter-spacing: 0;
+background-color: #ce0d14;
+font-weight: bold;
+color: #fff;
+display: block;
+font-size: .9em; }
+
+#schedule .session .title, .day-overview .title {display: block;
+margin-bottom: 0em;
+font-weight: bold;
+color: #fff;
+background-color: #000;
+display: block;
+width: auto;
+font-style: italic;
+padding: 0 .3em;
+font-size: .9em; }
+
+.session .description, .session .bio, .session .links {
+width: 100%;}
+
+.summary .name {margin-top: 1em}
+
+#schedule .break {color: #999;
+margin-top: 1.5em ;
+display: none}
+
+#schedule .break .title {background: #fff;
+padding: 0 .5em;
+margin-left: -.5em; }
+
+#schedule 
+ a {border-bottom: 2px solid #bbb;
+color: #ce0d14; }
+
+#schedule .break a:focus, #schedule .break a:hover {color: #ce0d14;
+border-bottom-color: #999; }
+
+#schedule .bio, #workshops .bio {font-style: italic;
+color: #444; }
+
+#schedule .description + .bio, #workshops .description + .bio {margin-top: 1em; }
+
+.bio {
+margin-bottom: 1em;
+display: none}
+
+.bio h3 {margin-top: .3em;
+font-family: futura-pt, futura, san-serif;
+background-color: #000;
+color: #fff;
+display: inline-block;
+padding: .2em
+ }
+
+.vevent p {font-size: .9em}
+
+.bio p {padding: .3em 0}
+
+
+#schedule figure, #workshops figure {display: none }
+
+#BradFrost {display: none }
+
+#workshops img {margin-bottom: 21em; }
+
+
+
+figcaption {position: absolute;
+bottom: 10%;
+left: 5%;
+display: block;
+font-family: futura-pt, futura, san-serif;
+font-weight: 500;
+color: #fff;
+background-color: red;
+font-size: 1.1em;
+padding: 0 .2em;
+}
+
+#schedule .links, #workshops .links {margin-top: 1em;
+padding-bottom: 1em; 
+display: none}
+
+#schedule .links li, #workshops .links li {display: inline-block;
+margin-right: 1.5em; }
+
+#schedule .links a:focus, #schedule .links a:hover, #workshops .links a:focus, #workshops .links a:hover {border-bottom-color: #ccc; }
+
+#schedule .links a:first-of-type, #workshops .links a:first-of-type {background: url(images/sprite-links.png) 0 2px no-repeat;
+padding-left: 20px; }
+
+#schedule .links a[href*="twitter.com"], #workshops .links a[href*="twitter.com"] {background: url(images/sprite-links.png) 0 -36px no-repeat;
+padding-left: 20px; }
+
+#schedule .links a[href*="github.com"], #workshops .links a[href*="github.com"] {background: url(images/sprite-links.png) 0 -70px no-repeat;
+padding-left: 20px; }
+
+#schedule .time, #workshops .time {position: absolute;
+top: -.9em;
+left: 0;
+background: #fff;
+padding: 0 .5em;
+margin-left: 1.5em;
+font-size: 1em; }
+
+
+/* Venue */
+
+#venue h1 {margin-bottom: 0; }
+
+#venue h2 {width: 30%;
+padding-left: 0; }
+
+#venue h2 img {position: relative;
+top: 12px;
+left: 1.5em; }
+
+
+.venue-details {
+width: 90%;
+margin: 0 auto 1em auto}
+
+.registration-details {
+width: 100%;
+margin: 0 auto 1em auto;
+}
+
+#venue .venue-details h2 {
+width: 100%;
+display: block;
+background: #ce0d14;
+margin-top: 1em}
+
+
+#venue .venue-details p {margin-left: 0;
+font-size: .9em	}
+
+#venue-map {width: 100%;
+height: 250px;
+margin-top: 2.5em; }
+
+
+/* Register / pricing */
+
+#register>p {
+font-size: .9em; 
+}
+
+.registerItem {
+margin-top: 1em}
+
+.registerItem h2{
+font-size: .9em}
+
+.registerItem h2 span{
+display: block;
+font-size: .9em}
+
+.registerItem h3, .registerItem h4{
+background-color: #000;
+color: #fff; }
+
+#register .registerItem h4{
+margin-top: 0;
+font-size: .8em; }
+
+#register .registerItem h5{
+display: none }
+
+.registerItem p{
+text-align: right; 
+margin-top: .6em}
+
+.button, #register .button {background: #ce0d14 url(images/dots.png);
+color: #fff;
+display: inline-block;
+padding: .4em 1em; 
+border: none}
+
+nav .button, button {background: #ce0d14 url(images/dots.png);
+color: #fff;
+display: inline-block;
+padding: .3em 1em;
+margin-top: .6em }
+
+button {-webkit-appearance: none;
+appearance: none;
+border:none;
+font-size: 1em; }
+
+.button:focus, .button:hover, button:focus, button:hover {border-bottom: none;
+background-image: none; }
+
+#workshops .button {margin-top: 1.5em;
+text-align: center;
+width: 80% }
+
+#register .button {margin-top: 0;
+text-align: center;
+font-size: .9em; 
+padding: .1em .4em}
+
+#fineprint {font-size: .8em; }
+
+#fineprint li {margin-left: 2em; }
+
+/* Sponsors */
+
+#sponsors li {display: block;
+margin: .75em 0 1.5em 0;
+padding: 0 3% 0 0;
+float: left;
+width: 45%; }
+
+
+#sponsors li {width: 30%; }
+
+
+/*#sponsors a {display: block;
+position: relative; }*/
+
+#sponsors a:hover, #sponsors a:focus {border-bottom: none; }
+
+#sponsors img {margin-top: .75em;
+display: block;
+max-width: 80%;
+height: auto;
+max-height: 70px;
+/*	filter: url(../images/filters.svg#grayscale);
+*/	/* Firefox 3.5+ */
+    	filter: gray;
+/* IE6-9 */
+    -webkit-filter: grayscale(1);
+/* Google Chrome & Webkit Nightlies */
+	-o-filter: grayscale(1); }
+
+#sponsors a:hover img, #sponsors a:focus img {filter: none;
+-webkit-filter: grayscale(0);
+-o-filter: grayscale(0); }
+
+#sponsors h4 {color: #222;
+position: relative;
+z-index: 9; }
+
+#sponsors a:hover h4, #sponsors a:focus h4 {color: #ce0d14; }
+
+#sponsors a:after {content: "";
+display: block;
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+background: url(images/dots-white.png); }
+
+#sponsors a:hover:after, #sponsors a:focus:after {background: none; }
+
+#sponsors a.plain:after {display: none }
+
+#sponsors a.plain {display: inline; }
+
+/* Footer */
+
+footer {background: #eee;
+padding-bottom: 1.5em;
+position: relative;
+margin-top: 1em; }
+
+footer #contact, footer #links {width: 90%;
+padding-right: 0%;
+margin: 1.5em auto 0 auto; }
+
+
+footer #copyright {width: 90%;
+margin: 1em auto 0 auto;
+font-size: .8125em;
+line-height: 1.46em; }
+
+footer ul, footer a, footer p {color: #777; }
+
+footer a {border-bottom: 2px solid #bbb; }
+
+footer a:hover, footer a:focus {color: #555; }
+
+/*day details*/
+
+.day-overview {
+	width: 100%;
+}
+
+
+#schedule .day-overview h2 {text-align: left;
+font-size: 1.2em;
+margin: 0;
+padding: .2em;
+ }
+
+#schedule .day-overview h3  {
+margin-bottom: 1em
+}
+
+#schedule .day-overview h3 p {
+font-size: .8em;
+color: #fff;
+background-color: #000;
+text-align: right; 
+margin: 0}
+
+#schedule .day-overview > p, #schedule .day-overview > ul {
+font-size: .9em}
+
+#schedule .day-overview > ul {
+line-height: 1.2em;
+padding: 0 0 .5em 1em}
+
+
+#feb4 > p:nth-of-type(2), #feb4 > p:nth-of-type(3), #feb4 > ul, #feb4 > h4 {
+	display: none
+}
+
+#feb5 {margin-top: 1em}
+
+dl {font-size: .9em;
+text-transform: capitalize}
+
+#schedule dl a {border: none}
+
+dt {font-weight: bold;
+line-height: 1}
+
+dd {padding-bottom: .2em}
+
+.day-overview table {width: 100% }
+
+.day-overview img {display: none}
+
+/*schedule table */
+
+#schedule h3 {}
+
+#schedule h4 {margin-top: .4em ;
+font-size: .9em; }
+
+#schedule table {width: 100%;
+font-size: .8em;
+margin: 1em 0 }
+
+#schedule table:first-of-type {border-right: solid thin white }
+
+#schedule table:nth-of-type(2) {width: 44% }
+
+#schedule tr:first-of-type {height: 2em;
+vertical-align: middle;
+/*border-bottom: solid thin #ccc*/
+	font-weight: bold; }
+
+#schedule th {text-align: left;
+padding-left: 1em }
+
+#schedule tr {/*height: 4em;
+*/
+	vertical-align: middle;
+/*border-bottom: solid thin #ccc*/
+min-height: 2.6em;
+min-height: 25px }
+
+#schedule tr:nth-of-type(odd) {background-color: #efefef }
+
+#schedule table .sessiontime, #schedule table .speaker, #schedule table .sessiontitle {display: block;
+line-height: 1 }
+
+#schedule table .sessiontime {font-size: .8em;
+padding: 0 1em;
+vertical-align: middle; 
+display: none}
+
+#schedule table .speaker, #schedule table .sessiontitle {padding: 0 1em;
+vertical-align: middle; }
+
+#schedule table .speaker {font-style: italic;
+color: #ce0d14; }
+
+#schedule table .sessiontitle {font-weight: bold; }
+
+/*pricing*/
+
+.priceOption {width: 30%;
+padding: 0 1%;
+margin-bottom: 1em;
+background-color: #ebebeb; }
+
+.priceOption.recommended {width: 60%;
+font-size: 1.1em;
+float: right; }
+
+#register .priceOption p {width: 100% }
+
+#register>p {clear: both }
+
+#fineprint, #sponsors {display: none}
+
+.time {display: none}}
+
+/*base*/
+
+li {line-height: 1.3}
